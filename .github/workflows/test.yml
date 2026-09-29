@@ -1,0 +1,37 @@
+name: 离线验证
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  tests:
+    name: ${{ matrix.os }} · Python ${{ matrix.python }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-latest
+            python: '3.9'
+          - os: ubuntu-latest
+            python: '3.12'
+          - os: macos-latest
+            python: '3.12'
+          - os: windows-latest
+            python: '3.12'
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: 安装可选拼版依赖以覆盖测试
+        run: python -m pip install -r requirements-optional.txt
+      - name: 自动化测试
+        run: python -m unittest discover -s tests -v
+      - name: 数据与方案验证
+        run: python scripts/zhbt.py validate
+      - name: 发布边界检查
+        run: python scripts/release_check.py

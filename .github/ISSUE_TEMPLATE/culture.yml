@@ -1,0 +1,24 @@
+name: 文化来源与形制修正
+description: 提交具体地区、支系、工艺或文字的核验意见
+title: '[文化核验] '
+body:
+  - type: input
+    id: ethnic
+    attributes:
+      label: 民族、地区与具体社区
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: 哪个符号或说法需要修正
+      description: 给出数据文件或成图位置，以及更准确的替代方案。
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 可靠依据
+      description: 博物馆、非遗机构、学术出处、社区或传承人说明；说明权限和适用范围。
+    validations:
+      required: true

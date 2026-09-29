@@ -1,0 +1,7003 @@
+[
+  {
+    "id": "01",
+    "slug": "mongolian",
+    "name": "蒙古族",
+    "route": "苍穹毡艺",
+    "cultural_scope": "内蒙古及相关草原生活语境",
+    "hero": "蒙古包毡面与木骨结构",
+    "supports": [
+      "低草原地平线",
+      "毡绣卷纹",
+      "准确马头琴局部"
+    ],
+    "craft_context": [
+      "织毯绒面",
+      "皮革烙印"
+    ],
+    "blessings": [
+      "山河无恙",
+      "八方来财",
+      "吉星高照",
+      "前程似锦",
+      "福满草原"
+    ],
+    "skeleton_pool": [
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "overprint",
+      "felt",
+      "leather",
+      "ink"
+    ],
+    "composition_pool": [
+      "horizon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "staggered",
+      "vertical",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EDE4CF",
+        "title": "#263B35",
+        "secondary": "#64918D",
+        "accent": "#BB963F",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#263B35",
+        "title": "#EDE4CF",
+        "secondary": "#64918D",
+        "accent": "#BB963F",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#64918D",
+        "title": "#EDE4CF",
+        "secondary": "#263B35",
+        "accent": "#BB963F",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "横向扩张与琴弦张力",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不混用哈萨克鹰猎或藏式经幡；马头琴琴弦和琴轴须依据实物",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "蒙古族 织毯绒面 非遗 博物馆",
+        "蒙古族 蒙古包毡面与木骨结构 实物"
+      ]
+    },
+    "reference_cell": "assets/reference-cell-01.png",
+    "routes": [
+      {
+        "name": "苍穹毡艺·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "苍穹毡艺·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "苍穹毡艺·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "brush_banner",
+      "craft": "overprint",
+      "composition": "horizon",
+      "layout": "staggered",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "02",
+    "slug": "hui",
+    "name": "回族",
+    "route": "砖雕清雅",
+    "cultural_scope": "宁夏或河湟等具体社区，需选定一处",
+    "hero": "木格窗与砖雕花草",
+    "supports": [
+      "盖碗",
+      "院落",
+      "朴素植物纹"
+    ],
+    "craft_context": [
+      "石刻碑铭",
+      "木刻版画"
+    ],
+    "blessings": [
+      "平安喜乐",
+      "福至心安",
+      "和顺美满",
+      "家和业兴"
+    ],
+    "skeleton_pool": [
+      "running_script",
+      "clerical_ticket",
+      "brush_banner",
+      "stele"
+    ],
+    "craft_pool": [
+      "woodprint",
+      "stone",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "portal",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F2E9D3",
+        "title": "#175F60",
+        "secondary": "#3A9593",
+        "accent": "#B99147",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#175F60",
+        "title": "#F2E9D3",
+        "secondary": "#3A9593",
+        "accent": "#B99147",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#3A9593",
+        "title": "#F2E9D3",
+        "secondary": "#175F60",
+        "accent": "#B99147",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "稳重包裹与门庭开启",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "生活工艺并非民族独占；不得用任意中东清真寺替代中国地方建筑",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "回族 石刻碑铭 非遗 博物馆",
+        "回族 木格窗与砖雕花草 实物"
+      ]
+    },
+    "reference_cell": "assets/reference-cell-02.png",
+    "routes": [
+      {
+        "name": "砖雕清雅·门庭纳福",
+        "composition": "portal",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "砖雕清雅·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "砖雕清雅·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "running_script",
+      "craft": "woodprint",
+      "composition": "portal",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "03",
+    "slug": "tibetan",
+    "name": "藏族",
+    "route": "矿色雪域",
+    "cultural_scope": "雪域生活与有明确来源的藏式工艺",
+    "hero": "雪山与青稞",
+    "supports": [
+      "藏毯色带",
+      "金线云纹",
+      "牦牛局部"
+    ],
+    "craft_context": [
+      "矿物色平涂",
+      "纸本套印"
+    ],
+    "blessings": [
+      "天降吉祥",
+      "福佑四方",
+      "吉祥随行",
+      "光明安康"
+    ],
+    "skeleton_pool": [
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "mineral",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "horizon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "staggered",
+      "vertical",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EEE5D0",
+        "title": "#0D3154",
+        "secondary": "#1C5283",
+        "accent": "#D4AF57",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#0D3154",
+        "title": "#EEE5D0",
+        "secondary": "#1C5283",
+        "accent": "#D4AF57",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#1C5283",
+        "title": "#EEE5D0",
+        "secondary": "#0D3154",
+        "accent": "#D4AF57",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "由天而降、向下展开再向外护佑",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不生成经文咒语；不把所有居民等同宗教身份；宗教器物需具体依据",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "藏族 矿物色平涂 非遗 博物馆",
+        "藏族 雪山与青稞 实物"
+      ]
+    },
+    "reference_cell": "assets/reference-cell-03.png",
+    "routes": [
+      {
+        "name": "矿色雪域·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "矿色雪域·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "矿色雪域·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "brush_banner",
+      "craft": "mineral",
+      "composition": "horizon",
+      "layout": "staggered",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "04",
+    "slug": "uyghur",
+    "name": "维吾尔族",
+    "route": "艾德莱斯流光",
+    "cultural_scope": "新疆绿洲织染生活",
+    "hero": "艾德莱斯绸的纹色与组织",
+    "supports": [
+      "石榴",
+      "木雕窗棂",
+      "都塔尔局部"
+    ],
+    "craft_context": [
+      "棉线织染",
+      "织锦经纬"
+    ],
+    "blessings": [
+      "心想事成",
+      "花好月圆",
+      "福果盈门",
+      "喜乐常伴"
+    ],
+    "skeleton_pool": [
+      "running_script",
+      "brush_banner",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "cotton",
+      "brocade",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "ribbon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "staggered",
+      "vertical",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F2E7D3",
+        "title": "#773927",
+        "secondary": "#CC7557",
+        "accent": "#416C61",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#773927",
+        "title": "#F2E7D3",
+        "secondary": "#CC7557",
+        "accent": "#416C61",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#CC7557",
+        "title": "#F2E7D3",
+        "secondary": "#773927",
+        "accent": "#416C61",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "旋转、延展、歌舞般回旋",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "明确扎经染色的节律；不可混为一般彩虹飘带；乐器必须对照实物",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "维吾尔族 棉线织染 非遗 博物馆",
+        "维吾尔族 艾德莱斯绸的纹色与组织 实物"
+      ]
+    },
+    "reference_cell": "assets/reference-cell-04.png",
+    "routes": [
+      {
+        "name": "艾德莱斯流光·绸带回旋",
+        "composition": "ribbon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "艾德莱斯流光·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "艾德莱斯流光·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "running_script",
+      "craft": "cotton",
+      "composition": "ribbon",
+      "layout": "staggered",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "05",
+    "slug": "miao",
+    "name": "苗族",
+    "route": "银光蜡影",
+    "cultural_scope": "贵州黔东南具体苗族工艺支系",
+    "hero": "银冠的薄片錾花与垂饰",
+    "supports": [
+      "蝴蝶纹",
+      "靛蓝染织",
+      "绣片局部"
+    ],
+    "craft_context": [
+      "银饰錾刻",
+      "刺绣针脚",
+      "蜡防染"
+    ],
+    "blessings": [
+      "岁岁如意",
+      "大吉大利",
+      "福气满满",
+      "吉星高照",
+      "锦绣安康"
+    ],
+    "skeleton_pool": [
+      "stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket"
+    ],
+    "craft_pool": [
+      "silver",
+      "stitch",
+      "wax",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "textile",
+      "horizon",
+      "garden"
+    ],
+    "layout_pool": [
+      "paired_columns",
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EAE4D7",
+        "title": "#0D243F",
+        "secondary": "#346274",
+        "accent": "#AA436C",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#0D243F",
+        "title": "#EAE4D7",
+        "secondary": "#346274",
+        "accent": "#AA436C",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#346274",
+        "title": "#EAE4D7",
+        "secondary": "#0D243F",
+        "accent": "#AA436C",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "冷静聚合后突然释放",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "苗绣与银冠均有支系差异；蝴蝶寓意不作所有苗族统一信仰断言",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory",
+        "miao-embroidery"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "苗族 银饰錾刻 非遗 博物馆",
+        "苗族 银冠的薄片錾花与垂饰 实物"
+      ]
+    },
+    "reference_cell": "assets/reference-cell-05.png",
+    "routes": [
+      {
+        "name": "银光蜡影·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "银光蜡影·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "银光蜡影·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "stele",
+      "craft": "silver",
+      "composition": "textile",
+      "layout": "paired_columns",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "06",
+    "slug": "yi",
+    "name": "彝族",
+    "route": "黑漆火纹",
+    "cultural_scope": "凉山等有来源的彝族漆器与织物",
+    "hero": "黑红黄漆器纹带",
+    "supports": [
+      "火把节庆剪影",
+      "羊毛织纹",
+      "山线"
+    ],
+    "craft_context": [
+      "漆器描金",
+      "朱砂印刷"
+    ],
+    "blessings": [
+      "大吉大利",
+      "日进斗金",
+      "红火兴旺",
+      "步步高升",
+      "光耀前程"
+    ],
+    "skeleton_pool": [
+      "wood_sign",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "lacquer",
+      "cinnabar",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "night",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "four_two_lines",
+      "vertical",
+      "staggered",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F0DFC1",
+        "title": "#181A18",
+        "secondary": "#BC3025",
+        "accent": "#CEB178",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#181A18",
+        "title": "#F0DFC1",
+        "secondary": "#BC3025",
+        "accent": "#CEB178",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#BC3025",
+        "title": "#F0DFC1",
+        "secondary": "#181A18",
+        "accent": "#CEB178",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "燃烧、上升、脉冲",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不得牛头骨、恐怖部落、熔岩；太阳纹须对照具体工艺来源",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "彝族 漆器描金 非遗 博物馆",
+        "彝族 黑红黄漆器纹带 实物"
+      ]
+    },
+    "reference_cell": "assets/reference-cell-06.png",
+    "routes": [
+      {
+        "name": "黑漆火纹·夜色节庆",
+        "composition": "night",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "黑漆火纹·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "黑漆火纹·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "wood_sign",
+      "craft": "lacquer",
+      "composition": "night",
+      "layout": "four_two_lines",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "07",
+    "slug": "zhuang",
+    "name": "壮族",
+    "route": "铜鼓回响",
+    "cultural_scope": "广西铜鼓与壮锦相关社区",
+    "hero": "铜鼓鼓面局部",
+    "supports": [
+      "壮锦几何",
+      "稻穗",
+      "喀斯特水线"
+    ],
+    "craft_context": [
+      "铜鼓阴刻",
+      "织锦经纬"
+    ],
+    "blessings": [
+      "八方来财",
+      "万事胜意",
+      "福满人间",
+      "岁岁丰盈"
+    ],
+    "skeleton_pool": [
+      "clerical_ticket",
+      "brush_banner",
+      "running_script",
+      "stele"
+    ],
+    "craft_pool": [
+      "bronze",
+      "brocade",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "radial",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "staggered",
+      "vertical",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#ECE0C3",
+        "title": "#173D39",
+        "secondary": "#477368",
+        "accent": "#C5A05E",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#173D39",
+        "title": "#ECE0C3",
+        "secondary": "#477368",
+        "accent": "#C5A05E",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#477368",
+        "title": "#ECE0C3",
+        "secondary": "#173D39",
+        "accent": "#C5A05E",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "由鼓心向八方放射",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "铜鼓并非壮族独占；鼓面结构、蛙饰、纹带不得臆造",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "壮族 铜鼓阴刻 非遗 博物馆",
+        "壮族 铜鼓鼓面局部 实物"
+      ]
+    },
+    "reference_cell": "assets/reference-cell-07.png",
+    "routes": [
+      {
+        "name": "铜鼓回响·圆纹回响",
+        "composition": "radial",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "铜鼓回响·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "铜鼓回响·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "clerical_ticket",
+      "craft": "bronze",
+      "composition": "radial",
+      "layout": "staggered",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "08",
+    "slug": "bouyei",
+    "name": "布依族",
+    "route": "石屋蓝染",
+    "cultural_scope": "贵州具体布依族村落及染织",
+    "hero": "石板民居与蓝白织染",
+    "supports": [
+      "稻穗",
+      "河谷",
+      "几何绣边"
+    ],
+    "craft_context": [
+      "棉线织染",
+      "蜡防染"
+    ],
+    "blessings": [
+      "万事胜意",
+      "五福临门",
+      "丰年安泰",
+      "福入家门",
+      "顺水顺心"
+    ],
+    "skeleton_pool": [
+      "woodblock_regular",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "cotton",
+      "wax",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "textile",
+      "horizon",
+      "garden"
+    ],
+    "layout_pool": [
+      "staggered",
+      "vertical",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F0E8D7",
+        "title": "#173D5D",
+        "secondary": "#547FA0",
+        "accent": "#A34D39",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#173D5D",
+        "title": "#F0E8D7",
+        "secondary": "#547FA0",
+        "accent": "#A34D39",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#547FA0",
+        "title": "#F0E8D7",
+        "secondary": "#173D5D",
+        "accent": "#A34D39",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "稳重门庭与布面流动",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不得直接用江南白墙马头墙替代布依石板建筑；区分扎染与蜡染",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "布依族 棉线织染 非遗 博物馆",
+        "布依族 石板民居与蓝白织染 实物"
+      ]
+    },
+    "reference_cell": "assets/reference-cell-08.png",
+    "routes": [
+      {
+        "name": "石屋蓝染·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "石屋蓝染·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "石屋蓝染·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "woodblock_regular",
+      "craft": "cotton",
+      "composition": "textile",
+      "layout": "staggered",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "09",
+    "slug": "korean",
+    "name": "朝鲜族",
+    "route": "衣带春风",
+    "cultural_scope": "中国东北朝鲜族日常与节庆",
+    "hero": "长鼓与长衣带",
+    "supports": [
+      "稻田",
+      "金达莱",
+      "清浅山线"
+    ],
+    "craft_context": [
+      "纸本套印",
+      "纸本墨色"
+    ],
+    "blessings": [
+      "皆如所愿",
+      "皆如愿",
+      "岁岁安好",
+      "花开见喜",
+      "喜乐长安"
+    ],
+    "skeleton_pool": [
+      "running_script",
+      "brush_banner",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "ink",
+      "overprint"
+    ],
+    "composition_pool": [
+      "garden",
+      "textile",
+      "instrument"
+    ],
+    "layout_pool": [
+      "staggered",
+      "vertical",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F4E9E0",
+        "title": "#973C38",
+        "secondary": "#7397A5",
+        "accent": "#C7A474",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#973C38",
+        "title": "#F4E9E0",
+        "secondary": "#7397A5",
+        "accent": "#C7A474",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#7397A5",
+        "title": "#F4E9E0",
+        "secondary": "#973C38",
+        "accent": "#C7A474",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "轻风、旋转、连绵",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "长鼓为两端鼓面且有腰部的结构；不用宫殿、太极旗、樱花充当默认民族身份",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "朝鲜族 纸本套印 非遗 博物馆",
+        "朝鲜族 长鼓与长衣带 实物"
+      ]
+    },
+    "reference_cell": "assets/reference-cell-09.png",
+    "routes": [
+      {
+        "name": "衣带春风·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "衣带春风·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "衣带春风·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "running_script",
+      "craft": "ink",
+      "composition": "garden",
+      "layout": "staggered",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "10",
+    "slug": "manchu",
+    "name": "满族",
+    "route": "旗装绣影",
+    "cultural_scope": "东北满族服饰与民间工艺",
+    "hero": "服饰绣边和袖口结构",
+    "supports": [
+      "花卉剪纸",
+      "北方庭院",
+      "细金边"
+    ],
+    "craft_context": [
+      "刺绣针脚",
+      "剪纸镂空"
+    ],
+    "blessings": [
+      "富贵长乐",
+      "福寿安康",
+      "锦绣如意",
+      "家和业兴"
+    ],
+    "skeleton_pool": [
+      "clerical_ticket",
+      "wood_sign",
+      "brush_banner",
+      "running_script",
+      "stele"
+    ],
+    "craft_pool": [
+      "stitch",
+      "papercut",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "textile",
+      "garden",
+      "instrument"
+    ],
+    "layout_pool": [
+      "staggered",
+      "vertical",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EBDFCA",
+        "title": "#102E4C",
+        "secondary": "#255C80",
+        "accent": "#D4B065",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#102E4C",
+        "title": "#EBDFCA",
+        "secondary": "#255C80",
+        "accent": "#D4B065",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#255C80",
+        "title": "#EBDFCA",
+        "secondary": "#102E4C",
+        "accent": "#D4B065",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "舒展、回袖、环抱",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "满族文化不等同清宫；避免人人帝王龙袍、宫殿冠饰",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "满族 刺绣针脚 非遗 博物馆",
+        "满族 服饰绣边和袖口结构 实物"
+      ]
+    },
+    "reference_cell": "assets/reference-cell-10.png",
+    "routes": [
+      {
+        "name": "旗装绣影·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "旗装绣影·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "旗装绣影·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "clerical_ticket",
+      "craft": "stitch",
+      "composition": "textile",
+      "layout": "staggered",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "11",
+    "slug": "dong",
+    "name": "侗族",
+    "route": "木构声场",
+    "cultural_scope": "黔湘桂侗族木构与织锦",
+    "hero": "鼓楼木构层叠",
+    "supports": [
+      "风雨桥",
+      "侗锦",
+      "稻田水线"
+    ],
+    "craft_context": [
+      "木刻版画",
+      "织锦经纬"
+    ],
+    "blessings": [
+      "福气满满",
+      "家和业兴",
+      "歌乐安康",
+      "福满盈门"
+    ],
+    "skeleton_pool": [
+      "wood_sign",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "woodprint",
+      "brocade",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "portal",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EFE5D6",
+        "title": "#253A52",
+        "secondary": "#253A52",
+        "accent": "#BFC4C2",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#253A52",
+        "title": "#EFE5D6",
+        "secondary": "#253A52",
+        "accent": "#BFC4C2",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#253A52",
+        "title": "#EFE5D6",
+        "secondary": "#253A52",
+        "accent": "#BFC4C2",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "层叠向上与环形声场",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "鼓楼不画成佛塔；银冠不代替侗族所有工艺；大歌不画成仪式法阵",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "侗族 木刻版画 非遗 博物馆",
+        "侗族 鼓楼木构层叠 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "木构声场·门庭纳福",
+        "composition": "portal",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "木构声场·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "木构声场·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "wood_sign",
+      "craft": "woodprint",
+      "composition": "portal",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "12",
+    "slug": "yao",
+    "name": "瑶族",
+    "route": "长鼓红衣",
+    "cultural_scope": "湖南江华等具体瑶族长鼓语境",
+    "hero": "修长长鼓与挑花织带",
+    "supports": [
+      "红黑绣边",
+      "山花",
+      "薄雾"
+    ],
+    "craft_context": [
+      "刺绣针脚",
+      "木刻版画"
+    ],
+    "blessings": [
+      "万事顺意",
+      "喜乐安康",
+      "诸事顺遂",
+      "红运当头"
+    ],
+    "skeleton_pool": [
+      "folk_hand",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "stitch",
+      "woodprint",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "instrument",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F1E2CE",
+        "title": "#171A1C",
+        "secondary": "#171A1C",
+        "accent": "#1F4A73",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#171A1C",
+        "title": "#F1E2CE",
+        "secondary": "#171A1C",
+        "accent": "#1F4A73",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#171A1C",
+        "title": "#F1E2CE",
+        "secondary": "#171A1C",
+        "accent": "#1F4A73",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "鼓点分段、斜向穿越",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不同瑶族支系头饰不同；不拼接苗族银角冠；鼓形核验",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "瑶族 刺绣针脚 非遗 博物馆",
+        "瑶族 修长长鼓与挑花织带 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "长鼓红衣·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "长鼓红衣·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "长鼓红衣·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "folk_hand",
+      "craft": "stitch",
+      "composition": "instrument",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "13",
+    "slug": "bai",
+    "name": "白族",
+    "route": "蓝白茶序",
+    "cultural_scope": "云南大理白族扎染生活",
+    "hero": "蓝白扎染布面",
+    "supports": [
+      "三道茶器",
+      "白族院落",
+      "苍山水线"
+    ],
+    "craft_context": [
+      "棉线织染",
+      "纸本套印"
+    ],
+    "blessings": [
+      "三生有幸",
+      "风花雪月",
+      "福到心安",
+      "清喜常伴"
+    ],
+    "skeleton_pool": [
+      "clerical_ticket",
+      "brush_banner",
+      "running_script",
+      "stele"
+    ],
+    "craft_pool": [
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "textile",
+      "horizon",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E5E7E0",
+        "title": "#315F86",
+        "secondary": "#315F86",
+        "accent": "#A4BAC5",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#315F86",
+        "title": "#E5E7E0",
+        "secondary": "#315F86",
+        "accent": "#A4BAC5",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#315F86",
+        "title": "#E5E7E0",
+        "secondary": "#315F86",
+        "accent": "#A4BAC5",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "三段递进、清水扩散",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "蓝白不等于青花瓷；扎染与蜡染不可混淆；不任意借宫廷器物",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "白族 棉线织染 非遗 博物馆",
+        "白族 蓝白扎染布面 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "蓝白茶序·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "蓝白茶序·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "蓝白茶序·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "clerical_ticket",
+      "craft": "cotton",
+      "composition": "textile",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "14",
+    "slug": "tujia",
+    "name": "土家族",
+    "route": "西兰经纬",
+    "cultural_scope": "湘鄂渝黔土家织锦语境",
+    "hero": "西兰卡普几何织纹",
+    "supports": [
+      "织机局部",
+      "木楼轮廓",
+      "山地河流"
+    ],
+    "craft_context": [
+      "织锦经纬",
+      "刺绣针脚"
+    ],
+    "blessings": [
+      "福寿安康",
+      "家和业兴",
+      "锦绣前程",
+      "福满家园"
+    ],
+    "skeleton_pool": [
+      "stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket"
+    ],
+    "craft_pool": [
+      "brocade",
+      "stitch",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "textile",
+      "horizon",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EEE0C9",
+        "title": "#111820",
+        "secondary": "#111820",
+        "accent": "#24558A",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#111820",
+        "title": "#EEE0C9",
+        "secondary": "#111820",
+        "accent": "#24558A",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#111820",
+        "title": "#EEE0C9",
+        "secondary": "#111820",
+        "accent": "#24558A",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "逐格生长与摆手节奏",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "织纹转折由经纬结构支持；不贴通用西域毯纹",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "土家族 织锦经纬 非遗 博物馆",
+        "土家族 西兰卡普几何织纹 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "西兰经纬·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "西兰经纬·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "西兰经纬·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "stele",
+      "craft": "brocade",
+      "composition": "textile",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "15",
+    "slug": "hani",
+    "name": "哈尼族",
+    "route": "梯田光阶",
+    "cultural_scope": "云南红河具体哈尼梯田社区",
+    "hero": "梯田水光的层次",
+    "supports": [
+      "稻穗",
+      "田间小路",
+      "当地民居远影"
+    ],
+    "craft_context": [
+      "纸本套印",
+      "棉线织染"
+    ],
+    "blessings": [
+      "五谷丰登",
+      "岁岁丰收",
+      "步步高升",
+      "家业长青"
+    ],
+    "skeleton_pool": [
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "overprint",
+      "cotton",
+      "ink"
+    ],
+    "composition_pool": [
+      "horizon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EEE2CC",
+        "title": "#1E2A2E",
+        "secondary": "#5B3528",
+        "accent": "#D4A63A",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1E2A2E",
+        "title": "#EEE2CC",
+        "secondary": "#5B3528",
+        "accent": "#D4A63A",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#5B3528",
+        "title": "#EEE2CC",
+        "secondary": "#1E2A2E",
+        "accent": "#D4A63A",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "层层上升、光阶递进",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不将某支系帽饰代表全部哈尼；蘑菇房须据具体地域",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "哈尼族 纸本套印 非遗 博物馆",
+        "哈尼族 梯田水光的层次 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "梯田光阶·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "梯田光阶·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "梯田光阶·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "brush_banner",
+      "craft": "overprint",
+      "composition": "horizon",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "16",
+    "slug": "kazakh",
+    "name": "哈萨克族",
+    "route": "鹰翼天山",
+    "cultural_scope": "新疆天山或阿尔泰相关哈萨克社区",
+    "hero": "冬不拉与毡绣",
+    "supports": [
+      "牧场",
+      "毡房结构",
+      "马具纹带"
+    ],
+    "craft_context": [
+      "织毯绒面",
+      "刺绣针脚"
+    ],
+    "blessings": [
+      "吉星高照",
+      "鸿运当头",
+      "前程万里",
+      "福随风来"
+    ],
+    "skeleton_pool": [
+      "running_script",
+      "brush_banner",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "felt",
+      "stitch",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "instrument",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F2E5CF",
+        "title": "#815333",
+        "secondary": "#2990B5",
+        "accent": "#815333",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#815333",
+        "title": "#F2E5CF",
+        "secondary": "#2990B5",
+        "accent": "#815333",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#2990B5",
+        "title": "#F2E5CF",
+        "secondary": "#815333",
+        "accent": "#815333",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "向上展翼与远方驰行",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不同于马头琴；鹰猎仅在核验语境启用；毡房不能和蒙古包结构随意互换",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "哈萨克族 织毯绒面 非遗 博物馆",
+        "哈萨克族 冬不拉与毡绣 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "鹰翼天山·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "鹰翼天山·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "鹰翼天山·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "running_script",
+      "craft": "felt",
+      "composition": "instrument",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "17",
+    "slug": "dai",
+    "name": "傣族",
+    "route": "水金孔雀",
+    "cultural_scope": "云南西双版纳傣族织锦与水乡生活",
+    "hero": "傣锦与孔雀舞意象",
+    "supports": [
+      "热带叶片",
+      "水波",
+      "竹楼远影"
+    ],
+    "craft_context": [
+      "织锦经纬",
+      "木刻版画"
+    ],
+    "blessings": [
+      "财源广进",
+      "花开见喜",
+      "福气渐盈",
+      "四季平安"
+    ],
+    "skeleton_pool": [
+      "running_script",
+      "brush_banner",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "brocade",
+      "woodprint",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "garden",
+      "textile",
+      "instrument"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F3E5CF",
+        "title": "#087E78",
+        "secondary": "#087E78",
+        "accent": "#E16942",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#087E78",
+        "title": "#F3E5CF",
+        "secondary": "#087E78",
+        "accent": "#E16942",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#087E78",
+        "title": "#F3E5CF",
+        "secondary": "#087E78",
+        "accent": "#E16942",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "水流连续、生长绽放",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不复制泰国文字；不把越南泰族织锦当傣锦；寺塔须核验地域形制",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "傣族 织锦经纬 非遗 博物馆",
+        "傣族 傣锦与孔雀舞意象 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "水金孔雀·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "水金孔雀·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "水金孔雀·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "running_script",
+      "craft": "brocade",
+      "composition": "garden",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "18",
+    "slug": "li",
+    "name": "黎族",
+    "route": "黎锦人纹",
+    "cultural_scope": "海南具体黎族织染支系",
+    "hero": "黎锦几何织纹",
+    "supports": [
+      "棉线",
+      "织机结构",
+      "热带山地"
+    ],
+    "craft_context": [
+      "织锦经纬",
+      "棉线织染"
+    ],
+    "blessings": [
+      "岁岁平安",
+      "吉祥长在",
+      "美满如意",
+      "福泽绵长"
+    ],
+    "skeleton_pool": [
+      "woodblock_regular",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "brocade",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "textile",
+      "horizon",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F1EBDD",
+        "title": "#16191A",
+        "secondary": "#16191A",
+        "accent": "#E1AF38",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#16191A",
+        "title": "#F1EBDD",
+        "secondary": "#16191A",
+        "accent": "#E1AF38",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#16191A",
+        "title": "#F1EBDD",
+        "secondary": "#16191A",
+        "accent": "#E1AF38",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "经纬聚合与生命重复",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不可用蓝白蜡染或苗族银冠代替黎锦；人形纹不作无来源解释",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "黎族 织锦经纬 非遗 博物馆",
+        "黎族 黎锦几何织纹 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "黎锦人纹·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "黎锦人纹·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "黎锦人纹·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "woodblock_regular",
+      "craft": "brocade",
+      "composition": "textile",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "19",
+    "slug": "lisu",
+    "name": "傈僳族",
+    "route": "山带向上",
+    "cultural_scope": "滇川傈僳族相关织带社区",
+    "hero": "彩织带的宽窄节律",
+    "supports": [
+      "山路",
+      "织布结构",
+      "植物线影"
+    ],
+    "craft_context": [
+      "棉线织染",
+      "刺绣针脚"
+    ],
+    "blessings": [
+      "福至心灵",
+      "步步高升",
+      "喜乐安康",
+      "山高路顺"
+    ],
+    "skeleton_pool": [
+      "folk_hand",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "cotton",
+      "stitch",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "ribbon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EEE2D4",
+        "title": "#111820",
+        "secondary": "#111820",
+        "accent": "#1D7A8F",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#111820",
+        "title": "#EEE2D4",
+        "secondary": "#111820",
+        "accent": "#1D7A8F",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#111820",
+        "title": "#EEE2D4",
+        "secondary": "#111820",
+        "accent": "#1D7A8F",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "沿山路攀升、色带折返",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "刀杆节等仪式不猎奇；服饰结构先核验；不默认大银冠",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "傈僳族 棉线织染 非遗 博物馆",
+        "傈僳族 彩织带的宽窄节律 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "山带向上·绸带回旋",
+        "composition": "ribbon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "山带向上·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "山带向上·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "folk_hand",
+      "craft": "cotton",
+      "composition": "ribbon",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "20",
+    "slug": "wa",
+    "name": "佤族",
+    "route": "木鼓震纹",
+    "cultural_scope": "云南佤族木鼓与织物生活",
+    "hero": "有依据的木鼓外形",
+    "supports": [
+      "黑红织带",
+      "山林",
+      "普通节庆舞步"
+    ],
+    "craft_context": [
+      "木刻版画",
+      "棉线织染"
+    ],
+    "blessings": [
+      "红火兴旺",
+      "福满山林",
+      "同心安康",
+      "喜乐丰年"
+    ],
+    "skeleton_pool": [
+      "stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket"
+    ],
+    "craft_pool": [
+      "woodprint",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "night",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E5D9C7",
+        "title": "#111111",
+        "secondary": "#111111",
+        "accent": "#C98B2E",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#111111",
+        "title": "#E5D9C7",
+        "secondary": "#111111",
+        "accent": "#C98B2E",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#111111",
+        "title": "#E5D9C7",
+        "secondary": "#111111",
+        "accent": "#C98B2E",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "鼓点震荡、同心扩散",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "禁止人头猎奇、恐怖祭祀、泛非洲图腾柱",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "佤族 木刻版画 非遗 博物馆",
+        "佤族 有依据的木鼓外形 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "木鼓震纹·夜色节庆",
+        "composition": "night",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "木鼓震纹·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "木鼓震纹·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "stele",
+      "craft": "woodprint",
+      "composition": "night",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "21",
+    "slug": "she",
+    "name": "畲族",
+    "route": "凤凰茶山",
+    "cultural_scope": "闽浙等畲族彩带与服饰支系",
+    "hero": "畲族彩带与凤凰装绣边",
+    "supports": [
+      "茶枝",
+      "山花",
+      "山地"
+    ],
+    "craft_context": [
+      "刺绣针脚",
+      "织锦经纬"
+    ],
+    "blessings": [
+      "花开富贵",
+      "茶香福来",
+      "吉祥常伴",
+      "福满春山"
+    ],
+    "skeleton_pool": [
+      "running_script",
+      "brush_banner",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "stitch",
+      "brocade",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "garden",
+      "textile",
+      "instrument"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F0E4D1",
+        "title": "#245F78",
+        "secondary": "#245F78",
+        "accent": "#B64139",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#245F78",
+        "title": "#F0E4D1",
+        "secondary": "#245F78",
+        "accent": "#B64139",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#245F78",
+        "title": "#F0E4D1",
+        "secondary": "#245F78",
+        "accent": "#B64139",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "羽翼舒展与茶枝生长",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "凤凰装不能推及所有支系；纹样与苗绣区别须复核",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "畲族 刺绣针脚 非遗 博物馆",
+        "畲族 畲族彩带与凤凰装绣边 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "凤凰茶山·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "凤凰茶山·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "凤凰茶山·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "running_script",
+      "craft": "stitch",
+      "composition": "garden",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "22",
+    "slug": "gaoshan",
+    "name": "高山族",
+    "route": "山海织带",
+    "cultural_scope": "高山族内部不同社区，具体符号须先确定来源",
+    "hero": "不指向特定群体的山海与编织关系",
+    "supports": [
+      "普通织线",
+      "海岸",
+      "山地"
+    ],
+    "craft_context": [
+      "棉线织染",
+      "纸本套印"
+    ],
+    "blessings": [
+      "山海皆安",
+      "岁岁欢喜",
+      "福泽长在",
+      "同心如愿"
+    ],
+    "skeleton_pool": [
+      "woodblock_regular",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "horizon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E7E0D0",
+        "title": "#15191B",
+        "secondary": "#176C86",
+        "accent": "#E7E0D0",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#15191B",
+        "title": "#E7E0D0",
+        "secondary": "#176C86",
+        "accent": "#E7E0D0",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#176C86",
+        "title": "#E7E0D0",
+        "secondary": "#15191B",
+        "accent": "#E7E0D0",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "山海相接、织带贯穿",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不得把达悟拼板舟或某支系人像纹代表全部高山族；需具体群体时先询问",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "高山族 棉线织染 非遗 博物馆",
+        "高山族 不指向特定群体的山海与编织关系 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "山海织带·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "山海织带·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "山海织带·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "woodblock_regular",
+      "craft": "cotton",
+      "composition": "horizon",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "23",
+    "slug": "lahu",
+    "name": "拉祜族",
+    "route": "葫芦声烟",
+    "cultural_scope": "滇南拉祜族葫芦笙与织物语境",
+    "hero": "葫芦笙的笙管轮廓",
+    "supports": [
+      "黑衣彩边",
+      "竹楼远影",
+      "茶叶"
+    ],
+    "craft_context": [
+      "木刻版画",
+      "棉线织染"
+    ],
+    "blessings": [
+      "茶香福来",
+      "喜乐安康",
+      "心想事成",
+      "春山有福"
+    ],
+    "skeleton_pool": [
+      "folk_hand",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "woodprint",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "instrument",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#ECE0CE",
+        "title": "#17191B",
+        "secondary": "#17191B",
+        "accent": "#C3942C",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#17191B",
+        "title": "#ECE0CE",
+        "secondary": "#17191B",
+        "accent": "#C3942C",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#17191B",
+        "title": "#ECE0CE",
+        "secondary": "#17191B",
+        "accent": "#C3942C",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "声烟上升、旋律回转",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不移植其他民族乐器或芦笙；葫芦和管数据实物",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "拉祜族 木刻版画 非遗 博物馆",
+        "拉祜族 葫芦笙的笙管轮廓 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "葫芦声烟·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "葫芦声烟·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "葫芦声烟·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "folk_hand",
+      "craft": "woodprint",
+      "composition": "instrument",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "24",
+    "slug": "shui",
+    "name": "水族",
+    "route": "马尾绣波",
+    "cultural_scope": "黔南水族马尾绣",
+    "hero": "马尾绣盘线结构",
+    "supports": [
+      "稻田水线",
+      "织物边饰",
+      "绣片"
+    ],
+    "craft_context": [
+      "刺绣针脚",
+      "棉线织染"
+    ],
+    "blessings": [
+      "水顺财来",
+      "福泽绵长",
+      "顺遂安康",
+      "清喜常伴"
+    ],
+    "skeleton_pool": [
+      "stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket"
+    ],
+    "craft_pool": [
+      "stitch",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "radial",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#D9D8D1",
+        "title": "#192D39",
+        "secondary": "#236E82",
+        "accent": "#D9D8D1",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#192D39",
+        "title": "#D9D8D1",
+        "secondary": "#236E82",
+        "accent": "#D9D8D1",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#236E82",
+        "title": "#D9D8D1",
+        "secondary": "#192D39",
+        "accent": "#D9D8D1",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "盘绕、回环、水波扩散",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "水族不等于水中民族；禁用游鱼莲花替代全部文化；不生成伪水书",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "水族 刺绣针脚 非遗 博物馆",
+        "水族 马尾绣盘线结构 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "马尾绣波·圆纹回响",
+        "composition": "radial",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "马尾绣波·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "马尾绣波·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "stele",
+      "craft": "stitch",
+      "composition": "radial",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "25",
+    "slug": "dongxiang",
+    "name": "东乡族",
+    "route": "河谷果园",
+    "cultural_scope": "甘肃东乡生活与手工",
+    "hero": "擀毡与果园生活",
+    "supports": [
+      "麦穗",
+      "河谷",
+      "刺绣边"
+    ],
+    "craft_context": [
+      "织毯绒面",
+      "纸本套印"
+    ],
+    "blessings": [
+      "顺遂无忧",
+      "丰年安泰",
+      "平安喜乐",
+      "家和业兴"
+    ],
+    "skeleton_pool": [
+      "clerical_ticket",
+      "brush_banner",
+      "running_script",
+      "stele"
+    ],
+    "craft_pool": [
+      "felt",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "garden",
+      "textile",
+      "instrument"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F0E6D5",
+        "title": "#9E3D33",
+        "secondary": "#9E3D33",
+        "accent": "#3E6A4F",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#9E3D33",
+        "title": "#F0E6D5",
+        "secondary": "#9E3D33",
+        "accent": "#3E6A4F",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#9E3D33",
+        "title": "#F0E6D5",
+        "secondary": "#9E3D33",
+        "accent": "#3E6A4F",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "果实聚合、河谷舒展",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不直接借中东穹顶；工艺共有性如实说明，不把民族等同单一信仰",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "东乡族 织毯绒面 非遗 博物馆",
+        "东乡族 擀毡与果园生活 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "河谷果园·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "河谷果园·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "河谷果园·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "clerical_ticket",
+      "craft": "felt",
+      "composition": "garden",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "26",
+    "slug": "naxi",
+    "name": "纳西族",
+    "route": "东巴星图",
+    "cultural_scope": "云南丽江等纳西纸本与地方生活",
+    "hero": "有来源的东巴纸肌理与木构",
+    "supports": [
+      "雪山线",
+      "院落",
+      "植物"
+    ],
+    "craft_context": [
+      "纸本套印",
+      "木刻版画"
+    ],
+    "blessings": [
+      "万象如愿",
+      "山河安泰",
+      "福泽绵长",
+      "吉祥常在"
+    ],
+    "skeleton_pool": [
+      "woodblock_regular",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "overprint",
+      "woodprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "portal",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E4D5B8",
+        "title": "#252A2A",
+        "secondary": "#E4D5B8",
+        "accent": "#252A2A",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#252A2A",
+        "title": "#E4D5B8",
+        "secondary": "#E4D5B8",
+        "accent": "#252A2A",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#E4D5B8",
+        "title": "#252A2A",
+        "secondary": "#252A2A",
+        "accent": "#252A2A",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "图画环绕、星图连接",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不得生成伪东巴字；东巴画神圣形象和宗教图式需审查；不复制藏式转经筒",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "纳西族 纸本套印 非遗 博物馆",
+        "纳西族 有来源的东巴纸肌理与木构 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "东巴星图·门庭纳福",
+        "composition": "portal",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "东巴星图·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "东巴星图·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "woodblock_regular",
+      "craft": "overprint",
+      "composition": "portal",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "27",
+    "slug": "jingpo",
+    "name": "景颇族",
+    "route": "目脑纵歌",
+    "cultural_scope": "云南德宏景颇族织物与节庆",
+    "hero": "目瑙纵歌柱的节律",
+    "supports": [
+      "织袋纹",
+      "山地",
+      "普通舞步"
+    ],
+    "craft_context": [
+      "织锦经纬",
+      "木刻版画"
+    ],
+    "blessings": [
+      "喜乐丰年",
+      "同心如愿",
+      "福气满盈",
+      "吉庆长安"
+    ],
+    "skeleton_pool": [
+      "stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket"
+    ],
+    "craft_pool": [
+      "brocade",
+      "woodprint",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "textile",
+      "horizon",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F1ECE1",
+        "title": "#111518",
+        "secondary": "#B72F2A",
+        "accent": "#F1ECE1",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#111518",
+        "title": "#F1ECE1",
+        "secondary": "#B72F2A",
+        "accent": "#F1ECE1",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#B72F2A",
+        "title": "#F1ECE1",
+        "secondary": "#111518",
+        "accent": "#F1ECE1",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "纵向节奏与群舞回旋",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "舞柱图案据实际资料；不画成北美羽冠或泛部落火场",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "景颇族 织锦经纬 非遗 博物馆",
+        "景颇族 目瑙纵歌柱的节律 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "目脑纵歌·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "目脑纵歌·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "目脑纵歌·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "stele",
+      "craft": "brocade",
+      "composition": "textile",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "28",
+    "slug": "kyrgyz",
+    "name": "柯尔克孜族",
+    "route": "毡房天窗",
+    "cultural_scope": "新疆柯尔克孜族毡艺生活",
+    "hero": "毡绣曲线与毡房天窗",
+    "supports": [
+      "库姆孜",
+      "山地",
+      "马具局部"
+    ],
+    "craft_context": [
+      "织毯绒面",
+      "刺绣针脚"
+    ],
+    "blessings": [
+      "鸿运当头",
+      "吉星高照",
+      "万事亨通",
+      "平安喜乐"
+    ],
+    "skeleton_pool": [
+      "clerical_ticket",
+      "brush_banner",
+      "running_script",
+      "stele"
+    ],
+    "craft_pool": [
+      "felt",
+      "stitch",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "radial",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F0E5D1",
+        "title": "#1C2630",
+        "secondary": "#B64A3C",
+        "accent": "#1C2630",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1C2630",
+        "title": "#F0E5D1",
+        "secondary": "#B64A3C",
+        "accent": "#1C2630",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#B64A3C",
+        "title": "#F0E5D1",
+        "secondary": "#1C2630",
+        "accent": "#1C2630",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "由中心向外、天窗聚光",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "库姆孜结构核验；不可用冬不拉或马头琴替换；不以异国地标代替",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "柯尔克孜族 织毯绒面 非遗 博物馆",
+        "柯尔克孜族 毡绣曲线与毡房天窗 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "毡房天窗·圆纹回响",
+        "composition": "radial",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "毡房天窗·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "毡房天窗·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "clerical_ticket",
+      "craft": "felt",
+      "composition": "radial",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "29",
+    "slug": "tu",
+    "name": "土族",
+    "route": "彩袖盘绣",
+    "cultural_scope": "青海互助等土族盘绣",
+    "hero": "土族盘绣线环",
+    "supports": [
+      "彩袖色带",
+      "花卉",
+      "河谷"
+    ],
+    "craft_context": [
+      "刺绣针脚",
+      "棉线织染"
+    ],
+    "blessings": [
+      "福禄双全",
+      "彩云呈祥",
+      "吉祥如意",
+      "岁岁安康"
+    ],
+    "skeleton_pool": [
+      "folk_hand",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "stitch",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "radial",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EEE2CF",
+        "title": "#1F4E68",
+        "secondary": "#1F4E68",
+        "accent": "#D3A73D",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1F4E68",
+        "title": "#EEE2CF",
+        "secondary": "#1F4E68",
+        "accent": "#D3A73D",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#1F4E68",
+        "title": "#EEE2CF",
+        "secondary": "#1F4E68",
+        "accent": "#D3A73D",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "圆形盘绕与横向彩带",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "彩袖不是通用经幡；不画成藏式寺塔作为唯一识别",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "土族 刺绣针脚 非遗 博物馆",
+        "土族 土族盘绣线环 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "彩袖盘绣·圆纹回响",
+        "composition": "radial",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "彩袖盘绣·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "彩袖盘绣·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "folk_hand",
+      "craft": "stitch",
+      "composition": "radial",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "30",
+    "slug": "daur",
+    "name": "达斡尔族",
+    "route": "剪纸冰原",
+    "cultural_scope": "内蒙古及黑龙江达斡尔相关社区",
+    "hero": "剪纸与曲棍球杆弧线",
+    "supports": [
+      "桦木纹",
+      "河岸",
+      "农牧生活"
+    ],
+    "craft_context": [
+      "剪纸镂空",
+      "纸本套印"
+    ],
+    "blessings": [
+      "家和业兴",
+      "岁岁平安",
+      "福满田园",
+      "喜乐长安"
+    ],
+    "skeleton_pool": [
+      "stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket"
+    ],
+    "craft_pool": [
+      "papercut",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "horizon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F0E7D7",
+        "title": "#1D2428",
+        "secondary": "#B5302C",
+        "accent": "#4C6D45",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1D2428",
+        "title": "#F0E7D7",
+        "secondary": "#B5302C",
+        "accent": "#4C6D45",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#B5302C",
+        "title": "#F0E7D7",
+        "secondary": "#1D2428",
+        "accent": "#4C6D45",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "冰面滑行与剪纸展开",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "驯鹿并非默认民族标识；不用鄂温克驯鹿养殖替代达斡尔生活",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "达斡尔族 剪纸镂空 非遗 博物馆",
+        "达斡尔族 剪纸与曲棍球杆弧线 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "剪纸冰原·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "剪纸冰原·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "剪纸冰原·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "stele",
+      "craft": "papercut",
+      "composition": "horizon",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "31",
+    "slug": "mulao",
+    "name": "仫佬族",
+    "route": "稻穗蓝布",
+    "cultural_scope": "广西罗城仫佬族日常工艺",
+    "hero": "蓝布与稻作图形",
+    "supports": [
+      "民居远影",
+      "谷穗",
+      "山线"
+    ],
+    "craft_context": [
+      "棉线织染",
+      "纸本套印"
+    ],
+    "blessings": [
+      "事事顺遂",
+      "五谷丰登",
+      "福入家门",
+      "年年有余"
+    ],
+    "skeleton_pool": [
+      "wood_sign",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "garden",
+      "textile",
+      "instrument"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E9E2D5",
+        "title": "#183E5B",
+        "secondary": "#183E5B",
+        "accent": "#E9E2D5",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#183E5B",
+        "title": "#E9E2D5",
+        "secondary": "#183E5B",
+        "accent": "#E9E2D5",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#183E5B",
+        "title": "#E9E2D5",
+        "secondary": "#183E5B",
+        "accent": "#E9E2D5",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "稻穗拱起、布面穿门",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "核对仫与仡字形；不移植苗族银盘作主符号",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "仫佬族 棉线织染 非遗 博物馆",
+        "仫佬族 蓝布与稻作图形 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "稻穗蓝布·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "稻穗蓝布·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "稻穗蓝布·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "wood_sign",
+      "craft": "cotton",
+      "composition": "garden",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "32",
+    "slug": "qiang",
+    "name": "羌族",
+    "route": "石碉云路",
+    "cultural_scope": "四川岷江羌族社区",
+    "hero": "羌碉石构与羌绣",
+    "supports": [
+      "云云鞋纹",
+      "山花",
+      "山谷"
+    ],
+    "craft_context": [
+      "石刻碑铭",
+      "刺绣针脚"
+    ],
+    "blessings": [
+      "吉祥如意",
+      "福佑安康",
+      "步步高升",
+      "山河无恙"
+    ],
+    "skeleton_pool": [
+      "wei_stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "stone",
+      "stitch",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "portal",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E8E4DA",
+        "title": "#1B2023",
+        "secondary": "#787B78",
+        "accent": "#E8E4DA",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1B2023",
+        "title": "#E8E4DA",
+        "secondary": "#787B78",
+        "accent": "#E8E4DA",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#787B78",
+        "title": "#E8E4DA",
+        "secondary": "#1B2023",
+        "accent": "#E8E4DA",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "阶梯上升、云路护佑",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "白石与仪式相关需谨慎；不默认藏式经幡；碉楼不可画成欧式城堡",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "羌族 石刻碑铭 非遗 博物馆",
+        "羌族 羌碉石构与羌绣 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "石碉云路·门庭纳福",
+        "composition": "portal",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "石碉云路·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "石碉云路·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "wei_stele",
+      "craft": "stone",
+      "composition": "portal",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "33",
+    "slug": "bulang",
+    "name": "布朗族",
+    "route": "古茶年轮",
+    "cultural_scope": "云南布朗族茶山社区",
+    "hero": "茶叶与竹编制茶器",
+    "supports": [
+      "织布",
+      "古茶林",
+      "当地竹楼"
+    ],
+    "craft_context": [
+      "木刻版画",
+      "竹编经纬"
+    ],
+    "blessings": [
+      "春山有福",
+      "茶香纳福",
+      "岁岁丰盈",
+      "吉祥常在"
+    ],
+    "skeleton_pool": [
+      "running_script",
+      "brush_banner",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "woodprint",
+      "bamboo",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "garden",
+      "textile",
+      "instrument"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E6DDCC",
+        "title": "#5A3B27",
+        "secondary": "#5A3B27",
+        "accent": "#C69A35",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#5A3B27",
+        "title": "#E6DDCC",
+        "secondary": "#5A3B27",
+        "accent": "#C69A35",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#5A3B27",
+        "title": "#E6DDCC",
+        "secondary": "#5A3B27",
+        "accent": "#C69A35",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "年轮扩散、叶脉生长",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "茶文化非独占；应对照布朗具体工艺，不借傣族寺塔替代",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "布朗族 木刻版画 非遗 博物馆",
+        "布朗族 茶叶与竹编制茶器 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "古茶年轮·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "古茶年轮·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "古茶年轮·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "running_script",
+      "craft": "woodprint",
+      "composition": "garden",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "34",
+    "slug": "salar",
+    "name": "撒拉族",
+    "route": "河湟锦路",
+    "cultural_scope": "青海循化等撒拉族生活",
+    "hero": "木作与织绣边饰",
+    "supports": [
+      "河谷",
+      "果枝",
+      "普通院落"
+    ],
+    "craft_context": [
+      "木刻版画",
+      "刺绣针脚"
+    ],
+    "blessings": [
+      "诸事亨通",
+      "顺遂安康",
+      "福泽长流",
+      "美满如意"
+    ],
+    "skeleton_pool": [
+      "clerical_ticket",
+      "brush_banner",
+      "running_script",
+      "stele"
+    ],
+    "craft_pool": [
+      "woodprint",
+      "stitch",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "ribbon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F0E4D1",
+        "title": "#67513E",
+        "secondary": "#26766A",
+        "accent": "#D0A13C",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#67513E",
+        "title": "#F0E4D1",
+        "secondary": "#26766A",
+        "accent": "#D0A13C",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#26766A",
+        "title": "#F0E4D1",
+        "secondary": "#67513E",
+        "accent": "#D0A13C",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "河流向前、彩带绵延",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不要套中东清真寺；历史传说与专用纹样先核验",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "撒拉族 木刻版画 非遗 博物馆",
+        "撒拉族 木作与织绣边饰 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "河湟锦路·绸带回旋",
+        "composition": "ribbon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "河湟锦路·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "河湟锦路·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "clerical_ticket",
+      "craft": "woodprint",
+      "composition": "ribbon",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "35",
+    "slug": "maonan",
+    "name": "毛南族",
+    "route": "花竹帽光环",
+    "cultural_scope": "广西环江毛南族竹编",
+    "hero": "花竹帽编织面",
+    "supports": [
+      "竹篾",
+      "花枝",
+      "山地"
+    ],
+    "craft_context": [
+      "竹编经纬",
+      "纸本套印"
+    ],
+    "blessings": [
+      "美满如意",
+      "花开富贵",
+      "福满人间",
+      "喜乐常伴"
+    ],
+    "skeleton_pool": [
+      "wood_sign",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "bamboo",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "radial",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F0E5D3",
+        "title": "#1E2528",
+        "secondary": "#D1AA53",
+        "accent": "#A53C32",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1E2528",
+        "title": "#F0E5D3",
+        "secondary": "#D1AA53",
+        "accent": "#A53C32",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#D1AA53",
+        "title": "#1E2528",
+        "secondary": "#1E2528",
+        "accent": "#A53C32",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "竹条放射、圆满聚光",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "花竹帽结构核验；不把冬不拉当乐器主角；傩面不默认启用",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "毛南族 竹编经纬 非遗 博物馆",
+        "毛南族 花竹帽编织面 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "花竹帽光环·圆纹回响",
+        "composition": "radial",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "花竹帽光环·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "花竹帽光环·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "wood_sign",
+      "craft": "bamboo",
+      "composition": "radial",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "36",
+    "slug": "gelao",
+    "name": "仡佬族",
+    "route": "蜡裂傩影",
+    "cultural_scope": "黔北等仡佬族具体工艺",
+    "hero": "有来源的蓝染与竹编",
+    "supports": [
+      "山地",
+      "稻作",
+      "普通织纹"
+    ],
+    "craft_context": [
+      "蜡防染",
+      "棉线织染"
+    ],
+    "blessings": [
+      "福满山乡",
+      "万事如意",
+      "安康常伴",
+      "吉庆有余"
+    ],
+    "skeleton_pool": [
+      "woodblock_regular",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "wax",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "textile",
+      "horizon",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EEE5D7",
+        "title": "#173E5B",
+        "secondary": "#173E5B",
+        "accent": "#9D3B33",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#173E5B",
+        "title": "#EEE5D7",
+        "secondary": "#173E5B",
+        "accent": "#9D3B33",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#173E5B",
+        "title": "#EEE5D7",
+        "secondary": "#173E5B",
+        "accent": "#9D3B33",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "蜡裂扩散、半影显现",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "仡与仫不可混写；傩戏面具仅有具体社区依据才采用",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "仡佬族 蜡防染 非遗 博物馆",
+        "仡佬族 有来源的蓝染与竹编 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "蜡裂傩影·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "蜡裂傩影·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "蜡裂傩影·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "woodblock_regular",
+      "craft": "wax",
+      "composition": "textile",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "37",
+    "slug": "xibe",
+    "name": "锡伯族",
+    "route": "弓弦长路",
+    "cultural_scope": "察布查尔等锡伯族或东北相关社区",
+    "hero": "弓具结构与服饰绣边",
+    "supports": [
+      "伊犁田野",
+      "箭羽方向线",
+      "织纹"
+    ],
+    "craft_context": [
+      "刺绣针脚",
+      "剪纸镂空"
+    ],
+    "blessings": [
+      "前程似锦",
+      "一路顺风",
+      "鸿运高照",
+      "岁岁平安"
+    ],
+    "skeleton_pool": [
+      "stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket"
+    ],
+    "craft_pool": [
+      "stitch",
+      "papercut",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "instrument",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E8E4D8",
+        "title": "#244B6C",
+        "secondary": "#244B6C",
+        "accent": "#E8E4D8",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#244B6C",
+        "title": "#E8E4D8",
+        "secondary": "#244B6C",
+        "accent": "#E8E4D8",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#244B6C",
+        "title": "#E8E4D8",
+        "secondary": "#244B6C",
+        "accent": "#E8E4D8",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "紧绷、穿越、远行",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不等同满清宫廷；西迁题材需明确历史语境；不添加宗教旗帜",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "锡伯族 刺绣针脚 非遗 博物馆",
+        "锡伯族 弓具结构与服饰绣边 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "弓弦长路·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "弓弦长路·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "弓弦长路·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "stele",
+      "craft": "stitch",
+      "composition": "instrument",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "38",
+    "slug": "achang",
+    "name": "阿昌族",
+    "route": "钢锋茶影",
+    "cultural_scope": "云南陇川户撒等阿昌族工艺",
+    "hero": "户撒刀鞘与金属锻纹",
+    "supports": [
+      "织物",
+      "工坊木架",
+      "山地"
+    ],
+    "craft_context": [
+      "银饰錾刻",
+      "木刻版画"
+    ],
+    "blessings": [
+      "锦绣安泰",
+      "事业顺心",
+      "平安顺遂",
+      "茶香福来"
+    ],
+    "skeleton_pool": [
+      "wei_stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "silver",
+      "woodprint",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "instrument",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EEE2CF",
+        "title": "#17191B",
+        "secondary": "#4D6470",
+        "accent": "#C25A36",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#17191B",
+        "title": "#EEE2CF",
+        "secondary": "#4D6470",
+        "accent": "#C25A36",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#4D6470",
+        "title": "#EEE2CF",
+        "secondary": "#17191B",
+        "accent": "#C25A36",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "斜切、锋利、茶叶舒展",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "呈现手工制作不表现攻击；刀形有依据；不用侗族风雨桥替代民居",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "阿昌族 银饰錾刻 非遗 博物馆",
+        "阿昌族 户撒刀鞘与金属锻纹 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "钢锋茶影·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "钢锋茶影·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "钢锋茶影·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "wei_stele",
+      "craft": "silver",
+      "composition": "instrument",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "39",
+    "slug": "pumi",
+    "name": "普米族",
+    "route": "火塘笙烟",
+    "cultural_scope": "滇川普米族生活",
+    "hero": "羊毛织物与火塘",
+    "supports": [
+      "木器",
+      "葫芦笙",
+      "山林"
+    ],
+    "craft_context": [
+      "织毯绒面",
+      "棉线织染"
+    ],
+    "blessings": [
+      "平安顺遂",
+      "岁岁安暖",
+      "福聚人间",
+      "喜乐长安"
+    ],
+    "skeleton_pool": [
+      "folk_hand",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "felt",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "garden",
+      "textile",
+      "instrument"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E7D9C5",
+        "title": "#3C2D27",
+        "secondary": "#E7D9C5",
+        "accent": "#8B3C3A",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#3C2D27",
+        "title": "#E7D9C5",
+        "secondary": "#E7D9C5",
+        "accent": "#8B3C3A",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#E7D9C5",
+        "title": "#3C2D27",
+        "secondary": "#3C2D27",
+        "accent": "#8B3C3A",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "烟线升腾、围炉相聚",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "服饰和信仰内部多样；不全部处理成藏族寺院题材",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "普米族 织毯绒面 非遗 博物馆",
+        "普米族 羊毛织物与火塘 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "火塘笙烟·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "火塘笙烟·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "火塘笙烟·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "folk_hand",
+      "craft": "felt",
+      "composition": "garden",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "40",
+    "slug": "tajik",
+    "name": "塔吉克族",
+    "route": "帕米尔日轮",
+    "cultural_scope": "新疆帕米尔塔吉克族社区",
+    "hero": "当地刺绣与高原日轮",
+    "supports": [
+      "雪峰",
+      "织帽局部",
+      "舞步翼线"
+    ],
+    "craft_context": [
+      "刺绣针脚",
+      "棉线织染"
+    ],
+    "blessings": [
+      "日照金山",
+      "吉星高照",
+      "福耀前程",
+      "岁岁安康"
+    ],
+    "skeleton_pool": [
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "stitch",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "horizon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F4F0E6",
+        "title": "#2A272A",
+        "secondary": "#173D66",
+        "accent": "#F4F0E6",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#2A272A",
+        "title": "#F4F0E6",
+        "secondary": "#173D66",
+        "accent": "#F4F0E6",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#173D66",
+        "title": "#F4F0E6",
+        "secondary": "#2A272A",
+        "accent": "#F4F0E6",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "日照上升、鹰翼展开",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "鹰舞非任意鹰猎；不移用其他国家礼帽和乐器；服饰必须核验",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "塔吉克族 刺绣针脚 非遗 博物馆",
+        "塔吉克族 当地刺绣与高原日轮 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "帕米尔日轮·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "帕米尔日轮·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "帕米尔日轮·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "brush_banner",
+      "craft": "stitch",
+      "composition": "horizon",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "41",
+    "slug": "nu",
+    "name": "怒族",
+    "route": "怒江织流",
+    "cultural_scope": "云南怒江怒族社区",
+    "hero": "怒毯条带与江流",
+    "supports": [
+      "竹编",
+      "峡谷",
+      "当地民居"
+    ],
+    "craft_context": [
+      "棉线织染",
+      "织锦经纬"
+    ],
+    "blessings": [
+      "江河安澜",
+      "顺水顺心",
+      "福泽长流",
+      "万事亨通"
+    ],
+    "skeleton_pool": [
+      "running_script",
+      "brush_banner",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "cotton",
+      "brocade",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "ribbon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E6DCCB",
+        "title": "#2F5747",
+        "secondary": "#1F7890",
+        "accent": "#8F4934",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#2F5747",
+        "title": "#E6DCCB",
+        "secondary": "#1F7890",
+        "accent": "#8F4934",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#1F7890",
+        "title": "#E6DCCB",
+        "secondary": "#2F5747",
+        "accent": "#8F4934",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "江流穿越、峡谷收放",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不使用藏式转经筒；不把怒字解释为愤怒文化",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "怒族 棉线织染 非遗 博物馆",
+        "怒族 怒毯条带与江流 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "怒江织流·绸带回旋",
+        "composition": "ribbon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "怒江织流·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "怒江织流·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "running_script",
+      "craft": "cotton",
+      "composition": "ribbon",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "42",
+    "slug": "uzbek",
+    "name": "乌孜别克族",
+    "route": "花砖月庭",
+    "cultural_scope": "新疆乌孜别克族相关社区",
+    "hero": "有来源的刺绣花枝",
+    "supports": [
+      "花帽局部",
+      "庭院",
+      "瓜果"
+    ],
+    "craft_context": [
+      "刺绣针脚",
+      "棉线织染"
+    ],
+    "blessings": [
+      "花好月圆",
+      "福果盈门",
+      "喜乐常伴",
+      "美满如意"
+    ],
+    "skeleton_pool": [
+      "clerical_ticket",
+      "brush_banner",
+      "running_script",
+      "stele"
+    ],
+    "craft_pool": [
+      "stitch",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "garden",
+      "textile",
+      "instrument"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F1E5D2",
+        "title": "#145F72",
+        "secondary": "#145F72",
+        "accent": "#A43D45",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#145F72",
+        "title": "#F1E5D2",
+        "secondary": "#145F72",
+        "accent": "#A43D45",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#145F72",
+        "title": "#F1E5D2",
+        "secondary": "#145F72",
+        "accent": "#A43D45",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "网格破开、圆月聚合",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不得直接用撒马尔罕地标或通用伊斯兰花砖代表所有居民",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "乌孜别克族 刺绣针脚 非遗 博物馆",
+        "乌孜别克族 有来源的刺绣花枝 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "花砖月庭·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "花砖月庭·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "花砖月庭·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "clerical_ticket",
+      "craft": "stitch",
+      "composition": "garden",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "43",
+    "slug": "russian",
+    "name": "俄罗斯族",
+    "route": "桦木手风琴",
+    "cultural_scope": "新疆或内蒙古等中国俄罗斯族社区",
+    "hero": "手风琴褶皱与木窗花",
+    "supports": [
+      "家常面包",
+      "北方院落",
+      "花卉布纹"
+    ],
+    "craft_context": [
+      "木刻版画",
+      "刺绣针脚"
+    ],
+    "blessings": [
+      "岁岁欢喜",
+      "家和喜乐",
+      "福满人间",
+      "美满长乐"
+    ],
+    "skeleton_pool": [
+      "wood_sign",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "woodprint",
+      "stitch",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "portal",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F1ECE2",
+        "title": "#2B5A89",
+        "secondary": "#2B5A89",
+        "accent": "#F1ECE2",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#2B5A89",
+        "title": "#F1ECE2",
+        "secondary": "#2B5A89",
+        "accent": "#F1ECE2",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#2B5A89",
+        "title": "#F1ECE2",
+        "secondary": "#2B5A89",
+        "accent": "#F1ECE2",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "褶皱开合、欢快节拍",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不默认克里姆林宫、巨型教堂、套娃；不由人脸判断民族",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "俄罗斯族 木刻版画 非遗 博物馆",
+        "俄罗斯族 手风琴褶皱与木窗花 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "桦木手风琴·门庭纳福",
+        "composition": "portal",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "桦木手风琴·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "桦木手风琴·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "wood_sign",
+      "craft": "woodprint",
+      "composition": "portal",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "44",
+    "slug": "evenki",
+    "name": "鄂温克族",
+    "route": "驯鹿桦皮",
+    "cultural_scope": "以敖鲁古雅等特定驯鹿鄂温克社区为一条路线",
+    "hero": "桦皮器与森林",
+    "supports": [
+      "驯鹿仅限该社区语境",
+      "皮革缝线",
+      "林地河流"
+    ],
+    "craft_context": [
+      "桦皮浅刻",
+      "刺绣针脚"
+    ],
+    "blessings": [
+      "森林之佑",
+      "岁岁安康",
+      "福泽长在",
+      "山林呈祥"
+    ],
+    "skeleton_pool": [
+      "stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket"
+    ],
+    "craft_pool": [
+      "bark",
+      "stitch",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "horizon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E7DCC7",
+        "title": "#1E2525",
+        "secondary": "#E7DCC7",
+        "accent": "#9B4935",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1E2525",
+        "title": "#E7DCC7",
+        "secondary": "#E7DCC7",
+        "accent": "#9B4935",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#E7DCC7",
+        "title": "#1E2525",
+        "secondary": "#1E2525",
+        "accent": "#9B4935",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "鹿角展开、森林呼吸",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "驯鹿生活不代表所有鄂温克群体；不得与鄂伦春互换",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "鄂温克族 桦皮浅刻 非遗 博物馆",
+        "鄂温克族 桦皮器与森林 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "驯鹿桦皮·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "驯鹿桦皮·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "驯鹿桦皮·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "stele",
+      "craft": "bark",
+      "composition": "horizon",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "45",
+    "slug": "deang",
+    "name": "德昂族",
+    "route": "茶叶象鼓",
+    "cultural_scope": "云南德昂族酸茶与织物语境",
+    "hero": "制茶竹器与茶叶",
+    "supports": [
+      "象脚鼓局部",
+      "织纹",
+      "茶山"
+    ],
+    "craft_context": [
+      "竹编经纬",
+      "纸本套印"
+    ],
+    "blessings": [
+      "茶香纳福",
+      "喜乐丰年",
+      "吉祥常在",
+      "福气渐盈"
+    ],
+    "skeleton_pool": [
+      "folk_hand",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "bamboo",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "garden",
+      "textile",
+      "instrument"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EEE1CD",
+        "title": "#1C3345",
+        "secondary": "#3E6D3D",
+        "accent": "#C99B3A",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1C3345",
+        "title": "#EEE1CD",
+        "secondary": "#3E6D3D",
+        "accent": "#C99B3A",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#3E6D3D",
+        "title": "#EEE1CD",
+        "secondary": "#1C3345",
+        "accent": "#C99B3A",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "鼓声上升、茶叶旋转",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不采用任意东南亚铜壶或佛塔；酸茶制作按来源核验",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "德昂族 竹编经纬 非遗 博物馆",
+        "德昂族 制茶竹器与茶叶 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "茶叶象鼓·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "茶叶象鼓·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "茶叶象鼓·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "folk_hand",
+      "craft": "bamboo",
+      "composition": "garden",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "46",
+    "slug": "bonan",
+    "name": "保安族",
+    "route": "金属错彩",
+    "cultural_scope": "甘肃积石山等保安族手工",
+    "hero": "保安腰刀镶嵌与刀鞘",
+    "supports": [
+      "木面",
+      "金属线",
+      "山地院落"
+    ],
+    "craft_context": [
+      "银饰錾刻",
+      "木刻版画"
+    ],
+    "blessings": [
+      "百福具臻",
+      "福禄双全",
+      "安泰顺遂",
+      "事业有成"
+    ],
+    "skeleton_pool": [
+      "wei_stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "silver",
+      "woodprint",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "instrument",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EFE5D3",
+        "title": "#5A3A2A",
+        "secondary": "#555B5D",
+        "accent": "#2A7A70",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#5A3A2A",
+        "title": "#EFE5D3",
+        "secondary": "#555B5D",
+        "accent": "#2A7A70",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#555B5D",
+        "title": "#EFE5D3",
+        "secondary": "#5A3A2A",
+        "accent": "#2A7A70",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "金属嵌入、稳健切面",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不是安保职业符号；不以通用清真寺取代锻制技艺；不表现攻击",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "保安族 银饰錾刻 非遗 博物馆",
+        "保安族 保安腰刀镶嵌与刀鞘 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "金属错彩·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "金属错彩·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "金属错彩·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "wei_stele",
+      "craft": "silver",
+      "composition": "instrument",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "47",
+    "slug": "yugur",
+    "name": "裕固族",
+    "route": "彩带箭风",
+    "cultural_scope": "甘肃肃南裕固族生活",
+    "hero": "裕固族服饰彩带",
+    "supports": [
+      "祁连草地",
+      "刺绣",
+      "羊毛纤维"
+    ],
+    "craft_context": [
+      "刺绣针脚",
+      "棉线织染"
+    ],
+    "blessings": [
+      "吉祥常在",
+      "一路顺遂",
+      "岁岁欢喜",
+      "福随风来"
+    ],
+    "skeleton_pool": [
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "stitch",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "ribbon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F0E4D1",
+        "title": "#3E5A42",
+        "secondary": "#C24632",
+        "accent": "#F0E4D1",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#3E5A42",
+        "title": "#F0E4D1",
+        "secondary": "#C24632",
+        "accent": "#F0E4D1",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#C24632",
+        "title": "#F0E4D1",
+        "secondary": "#3E5A42",
+        "accent": "#F0E4D1",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "彩带飞扬、草原远行",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不借藏族经幡；头饰与语言内部差异需说明",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "裕固族 刺绣针脚 非遗 博物馆",
+        "裕固族 裕固族服饰彩带 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "彩带箭风·绸带回旋",
+        "composition": "ribbon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "彩带箭风·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "彩带箭风·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "brush_banner",
+      "craft": "stitch",
+      "composition": "ribbon",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "48",
+    "slug": "jing",
+    "name": "京族",
+    "route": "独弦渔网",
+    "cultural_scope": "广西东兴京族三岛生活",
+    "hero": "独弦琴弦与渔网",
+    "supports": [
+      "海浪",
+      "哈亭轮廓",
+      "海岸"
+    ],
+    "craft_context": [
+      "纸本套印",
+      "木刻版画"
+    ],
+    "blessings": [
+      "海阔生财",
+      "一帆风顺",
+      "鱼跃丰年",
+      "福泽长流"
+    ],
+    "skeleton_pool": [
+      "running_script",
+      "brush_banner",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "overprint",
+      "woodprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "instrument",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F1E5D2",
+        "title": "#1E2A35",
+        "secondary": "#117E9A",
+        "accent": "#D2A23C",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1E2A35",
+        "title": "#F1E5D2",
+        "secondary": "#117E9A",
+        "accent": "#D2A23C",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#117E9A",
+        "title": "#F1E5D2",
+        "secondary": "#1E2A35",
+        "accent": "#D2A23C",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "一弦贯穿、海浪回响",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "独弦琴不是多弦琴或冬不拉；不用越南文字替代中文祝福",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "京族 纸本套印 非遗 博物馆",
+        "京族 独弦琴弦与渔网 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "独弦渔网·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "独弦渔网·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "独弦渔网·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "running_script",
+      "craft": "overprint",
+      "composition": "instrument",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "49",
+    "slug": "tatar",
+    "name": "塔塔尔族",
+    "route": "花点甜纹",
+    "cultural_scope": "新疆塔塔尔族相关生活",
+    "hero": "刺绣花纹与手风琴",
+    "supports": [
+      "家常烘焙",
+      "木窗",
+      "花卉"
+    ],
+    "craft_context": [
+      "刺绣针脚",
+      "木刻版画"
+    ],
+    "blessings": [
+      "喜乐常伴",
+      "花好月圆",
+      "甜喜满门",
+      "福满人间"
+    ],
+    "skeleton_pool": [
+      "clerical_ticket",
+      "brush_banner",
+      "running_script",
+      "stele"
+    ],
+    "craft_pool": [
+      "stitch",
+      "woodprint",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "garden",
+      "textile",
+      "instrument"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F1E4CE",
+        "title": "#31333A",
+        "secondary": "#1E6A50",
+        "accent": "#F1E4CE",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#31333A",
+        "title": "#F1E4CE",
+        "secondary": "#1E6A50",
+        "accent": "#F1E4CE",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#1E6A50",
+        "title": "#F1E4CE",
+        "secondary": "#31333A",
+        "accent": "#F1E4CE",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "圆润花开、轻快节拍",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不要用都塔尔或清真寺一键代表；不无依据制造民族糖霜字体",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "塔塔尔族 刺绣针脚 非遗 博物馆",
+        "塔塔尔族 刺绣花纹与手风琴 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "花点甜纹·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "花点甜纹·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "花点甜纹·器物引势",
+        "composition": "instrument",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "clerical_ticket",
+      "craft": "stitch",
+      "composition": "garden",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "50",
+    "slug": "derung",
+    "name": "独龙族",
+    "route": "独龙毯峡谷",
+    "cultural_scope": "云南独龙江独龙族织物",
+    "hero": "独龙毯条纹",
+    "supports": [
+      "藤编",
+      "江流",
+      "山谷"
+    ],
+    "craft_context": [
+      "棉线织染",
+      "织锦经纬"
+    ],
+    "blessings": [
+      "万福来朝",
+      "山河安泰",
+      "福泽绵长",
+      "一路顺遂"
+    ],
+    "skeleton_pool": [
+      "woodblock_regular",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "cotton",
+      "brocade",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "ribbon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F0E5D3",
+        "title": "#181A1B",
+        "secondary": "#181A1B",
+        "accent": "#F0E5D3",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#181A1B",
+        "title": "#F0E5D3",
+        "secondary": "#181A1B",
+        "accent": "#F0E5D3",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#181A1B",
+        "title": "#F0E5D3",
+        "secondary": "#181A1B",
+        "accent": "#F0E5D3",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "宽条切入、峡谷穿越",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不默认纹面女性肖像；不将西域几何毯纹冒称独龙毯",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "独龙族 棉线织染 非遗 博物馆",
+        "独龙族 独龙毯条纹 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "独龙毯峡谷·绸带回旋",
+        "composition": "ribbon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "独龙毯峡谷·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "独龙毯峡谷·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "woodblock_regular",
+      "craft": "cotton",
+      "composition": "ribbon",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "51",
+    "slug": "orogen",
+    "name": "鄂伦春族",
+    "route": "桦皮火印",
+    "cultural_scope": "东北林地鄂伦春族工艺",
+    "hero": "桦树皮器物拼缝",
+    "supports": [
+      "林木",
+      "皮衣缝线",
+      "河流"
+    ],
+    "craft_context": [
+      "桦皮浅刻",
+      "纸本套印"
+    ],
+    "blessings": [
+      "山林呈祥",
+      "福暖人间",
+      "岁岁安康",
+      "家和喜乐"
+    ],
+    "skeleton_pool": [
+      "stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket"
+    ],
+    "craft_pool": [
+      "bark",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "horizon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E8DDC8",
+        "title": "#1C2524",
+        "secondary": "#E8DDC8",
+        "accent": "#C65A32",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1C2524",
+        "title": "#E8DDC8",
+        "secondary": "#E8DDC8",
+        "accent": "#C65A32",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#E8DDC8",
+        "title": "#1C2524",
+        "secondary": "#1C2524",
+        "accent": "#C65A32",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "火印扩散、森林呼吸",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不得自动套驯鹿养殖生活或宗教图腾；展示当代人而非原始部落",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "鄂伦春族 桦皮浅刻 非遗 博物馆",
+        "鄂伦春族 桦树皮器物拼缝 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "桦皮火印·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "桦皮火印·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "桦皮火印·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "stele",
+      "craft": "bark",
+      "composition": "horizon",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "52",
+    "slug": "hezhen",
+    "name": "赫哲族",
+    "route": "鱼皮流光",
+    "cultural_scope": "黑龙江三江地区赫哲族工艺",
+    "hero": "鱼皮衣制作与拼接",
+    "supports": [
+      "渔舟",
+      "江流",
+      "鱼纹"
+    ],
+    "craft_context": [
+      "鱼皮拼缝转译",
+      "刺绣针脚"
+    ],
+    "blessings": [
+      "鱼跃丰年",
+      "年年有余",
+      "江河安澜",
+      "福泽长流"
+    ],
+    "skeleton_pool": [
+      "running_script",
+      "brush_banner",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "fishskin",
+      "stitch",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "ribbon",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F1E8D8",
+        "title": "#1D637F",
+        "secondary": "#BFC9C7",
+        "accent": "#F1E8D8",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1D637F",
+        "title": "#F1E8D8",
+        "secondary": "#BFC9C7",
+        "accent": "#F1E8D8",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#BFC9C7",
+        "title": "#1D637F",
+        "secondary": "#1D637F",
+        "accent": "#F1E8D8",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "水面反光、鳞片层叠",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "鱼皮衣不等于银色活鱼鳞盔甲；伊玛堪叙事需具体依据",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "赫哲族 鱼皮拼缝转译 非遗 博物馆",
+        "赫哲族 鱼皮衣制作与拼接 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "鱼皮流光·绸带回旋",
+        "composition": "ribbon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "鱼皮流光·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "鱼皮流光·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "running_script",
+      "craft": "fishskin",
+      "composition": "ribbon",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  },
+  {
+    "id": "53",
+    "slug": "monba",
+    "name": "门巴族",
+    "route": "竹藤木碗",
+    "cultural_scope": "门隅等门巴族具体木作语境",
+    "hero": "木碗与竹藤编织",
+    "supports": [
+      "林地",
+      "织物边饰",
+      "当地民居"
+    ],
+    "craft_context": [
+      "木刻版画",
+      "竹编经纬"
+    ],
+    "blessings": [
+      "福泽绵长",
+      "岁岁安康",
+      "家和业兴",
+      "吉祥常伴"
+    ],
+    "skeleton_pool": [
+      "wood_sign",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "woodprint",
+      "bamboo",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "radial",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EEE2CF",
+        "title": "#5A3B2B",
+        "secondary": "#C69C55",
+        "accent": "#A23A38",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#5A3B2B",
+        "title": "#EEE2CF",
+        "secondary": "#C69C55",
+        "accent": "#A23A38",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#C69C55",
+        "title": "#EEE2CF",
+        "secondary": "#5A3B2B",
+        "accent": "#A23A38",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "编织收束、圆面聚合",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不一律采用布达拉宫；木碗有地域结构，服饰不混配",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "门巴族 木刻版画 非遗 博物馆",
+        "门巴族 木碗与竹藤编织 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "竹藤木碗·圆纹回响",
+        "composition": "radial",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "竹藤木碗·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "竹藤木碗·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "wood_sign",
+      "craft": "woodprint",
+      "composition": "radial",
+      "layout": "vertical",
+      "palette": "dark"
+    }
+  },
+  {
+    "id": "54",
+    "slug": "lhoba",
+    "name": "珞巴族",
+    "route": "竹林织甲",
+    "cultural_scope": "藏东南珞巴族具体社区",
+    "hero": "竹藤器与织带",
+    "supports": [
+      "森林",
+      "山坡",
+      "当地木居"
+    ],
+    "craft_context": [
+      "竹编经纬",
+      "棉线织染"
+    ],
+    "blessings": [
+      "福至山林",
+      "山河无恙",
+      "安康常伴",
+      "吉祥如意"
+    ],
+    "skeleton_pool": [
+      "stele",
+      "brush_banner",
+      "running_script",
+      "clerical_ticket"
+    ],
+    "craft_pool": [
+      "bamboo",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "textile",
+      "horizon",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F0E5D4",
+        "title": "#1D2525",
+        "secondary": "#173D34",
+        "accent": "#8F3833",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#1D2525",
+        "title": "#F0E5D4",
+        "secondary": "#173D34",
+        "accent": "#8F3833",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#173D34",
+        "title": "#F0E5D4",
+        "secondary": "#1D2525",
+        "accent": "#8F3833",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "坡势上升、竹纹交错",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "不制造羽冠与通用狩猎图腾；内部社区差异须核验",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "珞巴族 竹编经纬 非遗 博物馆",
+        "珞巴族 竹藤器与织带 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "竹林织甲·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "竹林织甲·山河承字",
+        "composition": "horizon",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "竹林织甲·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "stele",
+      "craft": "bamboo",
+      "composition": "textile",
+      "layout": "vertical",
+      "palette": "color"
+    }
+  },
+  {
+    "id": "55",
+    "slug": "jino",
+    "name": "基诺族",
+    "route": "太阳鼓鸣",
+    "cultural_scope": "云南基诺山基诺族生活",
+    "hero": "基诺大鼓的放射构造",
+    "supports": [
+      "茶叶",
+      "织纹",
+      "竹木居所"
+    ],
+    "craft_context": [
+      "木刻版画",
+      "棉线织染"
+    ],
+    "blessings": [
+      "太阳赐福",
+      "福满山林",
+      "喜乐丰年",
+      "吉祥常在"
+    ],
+    "skeleton_pool": [
+      "brush_banner",
+      "running_script",
+      "clerical_ticket",
+      "stele"
+    ],
+    "craft_pool": [
+      "woodprint",
+      "cotton",
+      "overprint",
+      "ink"
+    ],
+    "composition_pool": [
+      "radial",
+      "textile",
+      "garden"
+    ],
+    "layout_pool": [
+      "vertical",
+      "staggered",
+      "four_two_lines",
+      "paired_columns",
+      "two_giant",
+      "three_staggered",
+      "hero_first",
+      "single_seal"
+    ],
+    "palettes": [
+      {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EFE4D2",
+        "title": "#181A1A",
+        "secondary": "#C43B2E",
+        "accent": "#D5A72F",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#181A1A",
+        "title": "#EFE4D2",
+        "secondary": "#C43B2E",
+        "accent": "#D5A72F",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#C43B2E",
+        "title": "#EFE4D2",
+        "secondary": "#181A1A",
+        "accent": "#D5A72F",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      }
+    ],
+    "backgrounds": {
+      "light": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "dark": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "color": "所选主色的平面印色与细织理，色区有层次不叠万能噪点"
+    },
+    "motion": "鼓面放射、生命回响",
+    "integration": "主字完整可读，所选工艺的线条在标题外缘呼应；不把纹样替换为用户未输入的字。",
+    "safety_notes": [
+      "鼓面及节庆语境必须有来源；不复用彝族火太阳或傣族佛塔",
+      "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+      "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+    ],
+    "evidence": {
+      "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+      "source_ids": [
+        "ethnic-directory"
+      ],
+      "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+      "queries": [
+        "基诺族 木刻版画 非遗 博物馆",
+        "基诺族 基诺大鼓的放射构造 实物"
+      ]
+    },
+    "reference_cell": null,
+    "routes": [
+      {
+        "name": "太阳鼓鸣·圆纹回响",
+        "composition": "radial",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "太阳鼓鸣·锦纹护字",
+        "composition": "textile",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      },
+      {
+        "name": "太阳鼓鸣·花叶成境",
+        "composition": "garden",
+        "intent": "在认可的古典民艺印刷气质内改变主次、疏密与景物尺度"
+      }
+    ],
+    "preferred": {
+      "skeleton": "brush_banner",
+      "craft": "woodprint",
+      "composition": "radial",
+      "layout": "vertical",
+      "palette": "light"
+    }
+  }
+]

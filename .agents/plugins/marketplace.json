@@ -1,0 +1,12 @@
+{
+  "name": "zhbt-local",
+  "interface": {"displayName": "中华民族祝福票本地源"},
+  "plugins": [
+    {
+      "name": "zhonghua-blessing-ticket",
+      "source": {"source": "local", "path": "./"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity"
+    }
+  ]
+}

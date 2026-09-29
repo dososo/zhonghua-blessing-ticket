@@ -1,0 +1,23 @@
+name: 安装或生成流程问题
+description: 报告可复现的工程问题，或提供具体成图偏差
+title: '[问题] '
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境与版本
+      description: Skill版本、系统、宿主版本、是否有原生图像工具；不要提供密钥或个人完整路径。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      description: 输入的民族与祝福、单张或总览、执行命令及实际错误。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 实际结果
+      description: 可上传已去除个人资料的截图。说明是未出图、错字、文化串用还是风格偏离；不要只写不够高级。

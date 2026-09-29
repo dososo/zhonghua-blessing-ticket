@@ -1,0 +1,192 @@
+{
+  "id": "approved-folk-print-v3",
+  "version": "3.0.0",
+  "name": "中华民族祝福票·山河锦意",
+  "reference": {
+    "path": "assets/approved-overview.png",
+    "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+    "width": 1448,
+    "height": 1086,
+    "origin": "用户在本对话中确认的生成式十卡总览",
+    "role": "审美基准，非民族学证据，非本版本重新生成的验收结果"
+  },
+  "reference_cells": [
+    {
+      "ethnic_id": "01",
+      "path": "assets/reference-cell-01.png",
+      "role": "局部风格参考；低分辨率；不能作为单张成品交付",
+      "source_box": [
+        0,
+        0,
+        285,
+        468
+      ]
+    },
+    {
+      "ethnic_id": "02",
+      "path": "assets/reference-cell-02.png",
+      "role": "局部风格参考；低分辨率；不能作为单张成品交付",
+      "source_box": [
+        285,
+        0,
+        579,
+        468
+      ]
+    },
+    {
+      "ethnic_id": "03",
+      "path": "assets/reference-cell-03.png",
+      "role": "局部风格参考；低分辨率；不能作为单张成品交付",
+      "source_box": [
+        579,
+        0,
+        868,
+        468
+      ]
+    },
+    {
+      "ethnic_id": "04",
+      "path": "assets/reference-cell-04.png",
+      "role": "局部风格参考；低分辨率；不能作为单张成品交付",
+      "source_box": [
+        868,
+        0,
+        1158,
+        468
+      ]
+    },
+    {
+      "ethnic_id": "05",
+      "path": "assets/reference-cell-05.png",
+      "role": "局部风格参考；低分辨率；不能作为单张成品交付",
+      "source_box": [
+        1158,
+        0,
+        1448,
+        468
+      ]
+    },
+    {
+      "ethnic_id": "06",
+      "path": "assets/reference-cell-06.png",
+      "role": "局部风格参考；低分辨率；不能作为单张成品交付",
+      "source_box": [
+        0,
+        470,
+        285,
+        974
+      ]
+    },
+    {
+      "ethnic_id": "07",
+      "path": "assets/reference-cell-07.png",
+      "role": "局部风格参考；低分辨率；不能作为单张成品交付",
+      "source_box": [
+        285,
+        470,
+        579,
+        974
+      ]
+    },
+    {
+      "ethnic_id": "08",
+      "path": "assets/reference-cell-08.png",
+      "role": "局部风格参考；低分辨率；不能作为单张成品交付",
+      "source_box": [
+        579,
+        470,
+        868,
+        974
+      ]
+    },
+    {
+      "ethnic_id": "09",
+      "path": "assets/reference-cell-09.png",
+      "role": "局部风格参考；低分辨率；不能作为单张成品交付",
+      "source_box": [
+        868,
+        470,
+        1158,
+        974
+      ]
+    },
+    {
+      "ethnic_id": "10",
+      "path": "assets/reference-cell-10.png",
+      "role": "局部风格参考；低分辨率；不能作为单张成品交付",
+      "source_box": [
+        1158,
+        470,
+        1448,
+        974
+      ]
+    }
+  ],
+  "invariants": [
+    "中华传统祝福的温度：平安、丰足、相聚、顺遂；每个民族各有文化语境。",
+    "保持已确认参考图的古典民艺印刷、装饰性山河、细密织物纹饰与鲜明书法；不重新发明极简静物或电影海报路线。",
+    "图与准确中文一体生成。大字具有真实笔势并能在缩略图中识读；工艺转译以印刷性为主，不做立体游戏标题。",
+    "冷暖深浅有秩序：纸白、靛青、孔雀绿、朱红、银白、哑金按文化与构图分工；允许不同底色，禁止十卡统一滤镜。",
+    "纹样局部繁密、标题周围清楚；器物或山河参与文字周边构图，避免四周塞满同权重图标。",
+    "系列一致性来自绘画语言、线条精度、色彩组织和祝福内涵；卡位不必换成互不相容的画种。"
+  ],
+  "do_not_drift": [
+    "霓虹赛博",
+    "塑料三维浮雕",
+    "产品摄影摆拍",
+    "通用金属游戏字",
+    "全页污渍与裂纹",
+    "外文装饰堆砌",
+    "高饱和儿童贴纸",
+    "为求变化随机混用民族符号",
+    "每卡相同中央纸片",
+    "替参考作者生成签名或标识"
+  ],
+  "format_policy": {
+    "single_default": "3:4",
+    "long_target": [
+      1080,
+      2336
+    ],
+    "social_target": [
+      1080,
+      1440
+    ],
+    "overview_default": "5列2行，最后一辑5列1行",
+    "overview_is_valid_delivery": true,
+    "overview_is_not_individual_hires": true,
+    "actual_dimensions_must_be_reported": true,
+    "silently_upscale": false,
+    "long_negative_space": "留出有设计目的的低密度区域；不机械固定顶部百分比",
+    "social_reflow": "重新组织字图比例，不拉伸长票"
+  },
+  "text_policy": {
+    "mode": "integrated_direct",
+    "separate_overlay": false,
+    "max_title_chars": 12,
+    "years_on_art": false,
+    "dates_on_art": false,
+    "ethnic_label_single_default": false,
+    "ethnic_label_overview_default": true,
+    "ethnic_labels_role": "画布的目录性小标注，可关闭；不把民族名称当祝福大标题",
+    "language": "主标题中文，未经核验不生成民族文字；无随机外文",
+    "auxiliary_default": "无；用户提供准确短句时才启用",
+    "seal_default": "纯几何小印记，或主标题中已出现的一个汉字"
+  },
+  "capability_policy": {
+    "preferred": "宿主原生图像生成与图像输入",
+    "fallback": "说明当前宿主能力缺失，保存方案和提示词；不把提示词声称为图片",
+    "api_key_required_by_skill": false,
+    "api_fallback_without_consent": false,
+    "max_calls_single": 3,
+    "max_calls_overview": 2,
+    "retry_policy": "一次初稿后至多两次针对性编辑；总览初稿后至多一次局部修复。达上限报告具体失败项。"
+  },
+  "truth_policy": [
+    "计划编译通过不等于审美通过",
+    "风格指纹不同不等于视觉绝不重复",
+    "文字锁是提示与验收约束，不保证模型零错字",
+    "参考图不是本版本端到端验证结果",
+    "输出像素不等于原生生成像素"
+  ]
+}

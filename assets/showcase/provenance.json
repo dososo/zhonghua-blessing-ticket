@@ -1,0 +1,86 @@
+[
+  {
+    "path": "assets/showcase/01-10.png",
+    "source": "作者提供并授权用于仓库介绍的系列展示图",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "sha256": "1e2fd3c287d7597e476271dd611289779bfe761ef2d8a63f9940eda4ecfb49f5",
+    "pixel_sha256": "616abef9fe3affc79c8d62ce0457b274a17f431160fc99e0e02ce71e2fcaa87c",
+    "display_role": "项目展示；不替代Skill内置认可基准或文化专家验收",
+    "metadata": "仅保留图像结构、像素和色彩信息，移除EXIF及文本元数据"
+  },
+  {
+    "path": "assets/showcase/11-20.png",
+    "source": "作者提供并授权用于仓库介绍的系列展示图",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "sha256": "48236d855fb15e9b4a878cc10be456e429b92a04ad8bc337ab87ccf4e86bec3b",
+    "pixel_sha256": "5ee2c811e1209e394cf8bfd32e136424fa7e79140a4634d060f6e1db4650b659",
+    "display_role": "项目展示；不替代Skill内置认可基准或文化专家验收",
+    "metadata": "仅保留图像结构、像素和色彩信息，移除EXIF及文本元数据"
+  },
+  {
+    "path": "assets/showcase/21-30.png",
+    "source": "作者提供并授权用于仓库介绍的系列展示图",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "sha256": "514ab0d8eada659416789a9be3d28bc998bed1667b7f02abc285acdee14d7e48",
+    "pixel_sha256": "c4944ffcc562724521f482e78522cd0919220a568c5d00f363483b5762c6e5f9",
+    "display_role": "项目展示；不替代Skill内置认可基准或文化专家验收",
+    "metadata": "仅保留图像结构、像素和色彩信息，移除EXIF及文本元数据"
+  },
+  {
+    "path": "assets/showcase/31-40.png",
+    "source": "作者提供并授权用于仓库介绍的系列展示图",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "sha256": "11ff42a80f4f36d28f64180602ddde53b1e61eeb17b372780f30dd9e5709dbc0",
+    "pixel_sha256": "37273efc3a30748eead9a323fdb8071d78180e0a8a4d99a906fdf1f88d6e9822",
+    "display_role": "项目展示；不替代Skill内置认可基准或文化专家验收",
+    "metadata": "仅保留图像结构、像素和色彩信息，移除EXIF及文本元数据"
+  },
+  {
+    "path": "assets/showcase/41-50.png",
+    "source": "作者提供并授权用于仓库介绍的系列展示图",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "sha256": "a36337cdf234dd33f849526043eb3bb3ca45092ad444347316a0e0697a67a649",
+    "pixel_sha256": "b7df0e0ca72050041e9d210c69d434a640353d99da180273ed0a2042c0984bb7",
+    "display_role": "项目展示；不替代Skill内置认可基准或文化专家验收",
+    "metadata": "仅保留图像结构、像素和色彩信息，移除EXIF及文本元数据"
+  },
+  {
+    "path": "assets/showcase/51-55.png",
+    "source": "作者提供并授权用于仓库介绍的系列展示图",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "sha256": "8fbd5a3bb83d791963b973ca6dbbc5d17cb49bd9948eeca96d16eb4391772ff6",
+    "pixel_sha256": "eff009c0aeff8acf44d5cfd735aae333baf508663a123d876c48d9bd356b7826",
+    "display_role": "项目展示；不替代Skill内置认可基准或文化专家验收",
+    "metadata": "仅保留图像结构、像素和色彩信息，移除EXIF及文本元数据"
+  },
+  {
+    "path": "assets/readme/hero.png",
+    "source": "原生图文一体生成、经作者确认的第一辑总览",
+    "dimensions": [
+      1448,
+      1086
+    ],
+    "sha256": "b8e14f75f61ff37758bfeaf9c19ca05e062444f8e94cff147bae300daebc348f",
+    "pixel_sha256": "b9985a584ed2172f8c079a379ab04ce38708e61ba4f6aeb6ff8443143b5b6d5f",
+    "display_role": "项目展示；不替代Skill内置认可基准或文化专家验收",
+    "metadata": "仅保留图像结构、像素和色彩信息，移除EXIF及文本元数据"
+  }
+]

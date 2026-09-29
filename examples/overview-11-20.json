@@ -1,0 +1,1392 @@
+{
+  "version": "3.0.0",
+  "status": "planned_not_rendered",
+  "strategy": "overview",
+  "kind": "overview",
+  "range": [
+    11,
+    20
+  ],
+  "grid": {
+    "columns": 5,
+    "rows": 2,
+    "count": 10
+  },
+  "requested_aspect": "4:3",
+  "target_is_overview_not_individual_hires": true,
+  "label_policy": "目录小标注",
+  "style_binding": "approved-folk-print-v3",
+  "reference": {
+    "path": "assets/approved-overview.png",
+    "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+    "width": 1448,
+    "height": 1086,
+    "origin": "用户在本对话中确认的生成式十卡总览",
+    "role": "审美基准，非民族学证据，非本版本重新生成的验收结果",
+    "attach_path": "${SKILL_ROOT}/assets/approved-overview.png"
+  },
+  "cards": [
+    {
+      "version": "3.0.0",
+      "status": "planned_not_rendered",
+      "render_mode": "integrated_direct",
+      "separate_text_overlay": false,
+      "ethnic": {
+        "id": "11",
+        "name": "侗族",
+        "scope": "黔湘桂侗族木构与织锦"
+      },
+      "exact_text": {
+        "value": "福气满满",
+        "characters": [
+          "福",
+          "气",
+          "满",
+          "满"
+        ],
+        "character_count": 4,
+        "layout_lines": [
+          "福",
+          "气",
+          "满",
+          "满"
+        ],
+        "reading_rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框",
+        "allow_extra_text": false
+      },
+      "format": {
+        "id": "3:4",
+        "target_pixels": [
+          1080,
+          1440
+        ],
+        "actual_pixels": null,
+        "native_pixels_verified": false
+      },
+      "reference": {
+        "path": "assets/approved-overview.png",
+        "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+        "width": 1448,
+        "height": 1086,
+        "origin": "用户在本对话中确认的生成式十卡总览",
+        "role": "审美基准，非民族学证据，非本版本重新生成的验收结果",
+        "attach_path": "${SKILL_ROOT}/assets/approved-overview.png"
+      },
+      "local_reference_cell": null,
+      "style_binding": "approved-folk-print-v3",
+      "route": "木构声场",
+      "hero": "鼓楼木构层叠",
+      "supports": [
+        "风雨桥",
+        "侗锦",
+        "稻田水线"
+      ],
+      "semantic": {
+        "type": "吉庆",
+        "motion": "浓淡与大小有起伏，主字明快有力"
+      },
+      "palette": {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#253A52",
+        "title": "#EFE5D6",
+        "secondary": "#253A52",
+        "accent": "#BFC4C2",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      "background": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "composition": {
+        "id": "portal",
+        "name": "门庭纳福",
+        "rule": "有来源的木石构件组成半开放秩序，字直接存在画面中，建筑精确而不堆地标"
+      },
+      "typography": {
+        "skeleton_id": "wood_sign",
+        "skeleton": {
+          "name": "木牌匾体",
+          "recipe": "宽扁饱满，横竖稳健，民间手书温暖"
+        },
+        "craft_id": "woodprint",
+        "craft": {
+          "name": "木刻版画",
+          "recipe": "边缘轻刀痕、平涂墨色、局部透纸，仍以完整书法字骨为先",
+          "avoid": "把印刷纸面画成木板雕塑",
+          "edge": "局部轻刻口或切边，辨识性笔画完整",
+          "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+        },
+        "layout_id": "vertical",
+        "layout": {
+          "name": "开放竖写",
+          "min": 2,
+          "max": 12,
+          "rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框"
+        },
+        "dynamics": "圆转蓄势、收锋清楚",
+        "fusion": "装饰线沿字外呼吸区收束",
+        "surface": "边缘轻刀痕、平涂墨色、局部透纸，仍以完整书法字骨为先",
+        "edge": "局部轻刻口或切边，辨识性笔画完整",
+        "negative_space": "主字周边连续低密度区，深色本身也可留白",
+        "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+      },
+      "label": null,
+      "seals": "纯几何小印记，不制造乱码篆文",
+      "cultural_review": {
+        "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+        "source_ids": [
+          "ethnic-directory"
+        ],
+        "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+        "queries": [
+          "侗族 木刻版画 非遗 博物馆",
+          "侗族 鼓楼木构层叠 实物"
+        ]
+      },
+      "cultural_notes": [
+        "鼓楼不画成佛塔；银冠不代替侗族所有工艺；大歌不画成仪式法阵",
+        "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+        "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+      ],
+      "visual_fingerprint": "40abeac711d03f9076920959b84b7bc1dbb9eb98ca51ec745ca7654b654f9e67",
+      "request_fingerprint": "2d92704edc6163336a5b0fab5d2072afaccd5dbc276e1a36eacd8e7a28a43a9b",
+      "seed": 0,
+      "variation_used": 0,
+      "generation": {
+        "native_tool_required": true,
+        "max_calls": 3,
+        "read_reference_before_generation": true,
+        "attach_reference_when_supported": true,
+        "current_host_verified": false,
+        "retry": "一次初稿，最多两次定向编辑；不能承诺局部编辑绝对不改变其他细节。"
+      },
+      "prompt": "以随附的已确认总览图作为绘画与印刷气质基准，创作一张完整中文祝福票。图案、文字和工艺色同时生成，禁止生成无字底图后再贴字。\n继承装饰性山河、细密民艺纹饰、清楚有力的书法和柔和纸绢触感。只借审美，不挪用参考图中其他民族的文化符号。没有附件时先读取本包基准图并尝试将其作为图像参考，不能声称已参考未读取的图片。\n主标题必须逐字为「福气满满」，共4字，字序：福、气、满、满。不得改字、增字、减字、同音替换或追加另一句。\n版式：开放竖写。自上而下单列，大小和字距依笔势调整，无统一纸片框；文字分组：福 / 气 / 满 / 满。\n主字：木牌匾体，宽扁饱满，横竖稳健，民间手书温暖；圆转蓄势、收锋清楚。工艺：木刻版画，边缘轻刀痕、平涂墨色、局部透纸，仍以完整书法字骨为先。不做立体挤出、亮片广告字，不为材质牺牲汉字。\n文化范围：侗族，黔湘桂侗族木构与织锦。主锚点：鼓楼木构层叠；辅助只用：风雨桥、侗锦、稻田水线。具体器物比例与花纹服从可信实物，不臆造文字或神圣符号。\n图面组织：门庭纳福，有来源的木石构件组成半开放秩序，字直接存在画面中，建筑精确而不堆地标。装饰线沿字外呼吸区收束。主字周边连续低密度区，深色本身也可留白。祝福情绪：浓淡与大小有起伏，主字明快有力。\n色彩：底色#253A52、主字#EFE5D6、副色#253A52、点色#BFC4C2。深底托出亮字，纹样以细线和局部彩色浮现。底材：深绢或深色印纸，材质同色可见，主字区域平静。时间质感：新制或轻经年的手工印色；保留完整质地，不强制污旧残破；完整清楚优先，做旧仅局部可选。\n目标尺寸：1080×1440。3:4独立布局，标题占据明确重心，不裁切长票冒充。\n不在卡面显示民族名称。不出现年份、日期、生肖纪年、未经核验的民族文字、随机外文、作者签名或水印。小印只用纯几何或标题内的字。\n避免：霓虹赛博；塑料三维浮雕；产品摄影摆拍；通用金属游戏字；全页污渍与裂纹；外文装饰堆砌；高饱和儿童贴纸；为求变化随机混用民族符号；每卡相同中央纸片；替参考作者生成签名或标识。\n文化防串项：鼓楼不画成佛塔；银冠不代替侗族所有工艺；大歌不画成仪式法阵。",
+      "repair_prompt": "编辑本轮真实生成的原图，保持其绘画语言、主锚点、配色和主构图，仅修复已指出的错误。主标题严格是「福气满满」，福、气、满、满，不增加任何字。保留既定书体与平面工艺表现，不将标题替换成默认电脑字体。任何编辑都需重新检查全图，不能假定其余部分完全没变。"
+    },
+    {
+      "version": "3.0.0",
+      "status": "planned_not_rendered",
+      "render_mode": "integrated_direct",
+      "separate_text_overlay": false,
+      "ethnic": {
+        "id": "12",
+        "name": "瑶族",
+        "scope": "湖南江华等具体瑶族长鼓语境"
+      },
+      "exact_text": {
+        "value": "万事顺意",
+        "characters": [
+          "万",
+          "事",
+          "顺",
+          "意"
+        ],
+        "character_count": 4,
+        "layout_lines": [
+          "万",
+          "事",
+          "顺",
+          "意"
+        ],
+        "reading_rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框",
+        "allow_extra_text": false
+      },
+      "format": {
+        "id": "3:4",
+        "target_pixels": [
+          1080,
+          1440
+        ],
+        "actual_pixels": null,
+        "native_pixels_verified": false
+      },
+      "reference": {
+        "path": "assets/approved-overview.png",
+        "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+        "width": 1448,
+        "height": 1086,
+        "origin": "用户在本对话中确认的生成式十卡总览",
+        "role": "审美基准，非民族学证据，非本版本重新生成的验收结果",
+        "attach_path": "${SKILL_ROOT}/assets/approved-overview.png"
+      },
+      "local_reference_cell": null,
+      "style_binding": "approved-folk-print-v3",
+      "route": "长鼓红衣",
+      "hero": "修长长鼓与挑花织带",
+      "supports": [
+        "红黑绣边",
+        "山花",
+        "薄雾"
+      ],
+      "semantic": {
+        "type": "顺遂",
+        "motion": "有行气的舒展流动，避免笔画彼此纠缠"
+      },
+      "palette": {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#171A1C",
+        "title": "#F1E2CE",
+        "secondary": "#171A1C",
+        "accent": "#1F4A73",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      },
+      "background": "所选主色的平面印色与细织理，色区有层次不叠万能噪点",
+      "composition": {
+        "id": "instrument",
+        "name": "器物引势",
+        "rule": "一个准确器物局部放大或侧置，轮廓引向书法；细节不要覆盖主字"
+      },
+      "typography": {
+        "skeleton_id": "folk_hand",
+        "skeleton": {
+          "name": "民间手写",
+          "recipe": "笔压有起伏，字面大小略错落，整体字序清楚"
+        },
+        "craft_id": "stitch",
+        "craft": {
+          "name": "刺绣针脚",
+          "recipe": "针脚沿笔画方向排布，轮廓绣线和填线密度有因果",
+          "avoid": "随机线团覆盖笔画",
+          "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+          "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+        },
+        "layout_id": "vertical",
+        "layout": {
+          "name": "开放竖写",
+          "min": 2,
+          "max": 12,
+          "rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框"
+        },
+        "dynamics": "长锋舒展、停连有度",
+        "fusion": "书法与山势共享方向，保持完整字腔",
+        "surface": "针脚沿笔画方向排布，轮廓绣线和填线密度有因果",
+        "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+        "negative_space": "主字周边连续低密度区，深色本身也可留白",
+        "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+      },
+      "label": null,
+      "seals": "纯几何小印记，不制造乱码篆文",
+      "cultural_review": {
+        "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+        "source_ids": [
+          "ethnic-directory"
+        ],
+        "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+        "queries": [
+          "瑶族 刺绣针脚 非遗 博物馆",
+          "瑶族 修长长鼓与挑花织带 实物"
+        ]
+      },
+      "cultural_notes": [
+        "不同瑶族支系头饰不同；不拼接苗族银角冠；鼓形核验",
+        "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+        "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+      ],
+      "visual_fingerprint": "249d48a883c7f2bdd58afb1533c44c5b73028fc4019a0e2a686ea06f426df46a",
+      "request_fingerprint": "22007a30989b0b441337a2271d96634f2ebd82580329dd590562780782433935",
+      "seed": 0,
+      "variation_used": 0,
+      "generation": {
+        "native_tool_required": true,
+        "max_calls": 3,
+        "read_reference_before_generation": true,
+        "attach_reference_when_supported": true,
+        "current_host_verified": false,
+        "retry": "一次初稿，最多两次定向编辑；不能承诺局部编辑绝对不改变其他细节。"
+      },
+      "prompt": "以随附的已确认总览图作为绘画与印刷气质基准，创作一张完整中文祝福票。图案、文字和工艺色同时生成，禁止生成无字底图后再贴字。\n继承装饰性山河、细密民艺纹饰、清楚有力的书法和柔和纸绢触感。只借审美，不挪用参考图中其他民族的文化符号。没有附件时先读取本包基准图并尝试将其作为图像参考，不能声称已参考未读取的图片。\n主标题必须逐字为「万事顺意」，共4字，字序：万、事、顺、意。不得改字、增字、减字、同音替换或追加另一句。\n版式：开放竖写。自上而下单列，大小和字距依笔势调整，无统一纸片框；文字分组：万 / 事 / 顺 / 意。\n主字：民间手写，笔压有起伏，字面大小略错落，整体字序清楚；长锋舒展、停连有度。工艺：刺绣针脚，针脚沿笔画方向排布，轮廓绣线和填线密度有因果。不做立体挤出、亮片广告字，不为材质牺牲汉字。\n文化范围：瑶族，湖南江华等具体瑶族长鼓语境。主锚点：修长长鼓与挑花织带；辅助只用：红黑绣边、山花、薄雾。具体器物比例与花纹服从可信实物，不臆造文字或神圣符号。\n图面组织：器物引势，一个准确器物局部放大或侧置，轮廓引向书法；细节不要覆盖主字。书法与山势共享方向，保持完整字腔。主字周边连续低密度区，深色本身也可留白。祝福情绪：有行气的舒展流动，避免笔画彼此纠缠。\n色彩：底色#171A1C、主字#F1E2CE、副色#171A1C、点色#1F4A73。工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光。底材：所选主色的平面印色与细织理，色区有层次不叠万能噪点。时间质感：新制或轻经年的手工印色；保留完整质地，不强制污旧残破；完整清楚优先，做旧仅局部可选。\n目标尺寸：1080×1440。3:4独立布局，标题占据明确重心，不裁切长票冒充。\n不在卡面显示民族名称。不出现年份、日期、生肖纪年、未经核验的民族文字、随机外文、作者签名或水印。小印只用纯几何或标题内的字。\n避免：霓虹赛博；塑料三维浮雕；产品摄影摆拍；通用金属游戏字；全页污渍与裂纹；外文装饰堆砌；高饱和儿童贴纸；为求变化随机混用民族符号；每卡相同中央纸片；替参考作者生成签名或标识。\n文化防串项：不同瑶族支系头饰不同；不拼接苗族银角冠；鼓形核验。",
+      "repair_prompt": "编辑本轮真实生成的原图，保持其绘画语言、主锚点、配色和主构图，仅修复已指出的错误。主标题严格是「万事顺意」，万、事、顺、意，不增加任何字。保留既定书体与平面工艺表现，不将标题替换成默认电脑字体。任何编辑都需重新检查全图，不能假定其余部分完全没变。"
+    },
+    {
+      "version": "3.0.0",
+      "status": "planned_not_rendered",
+      "render_mode": "integrated_direct",
+      "separate_text_overlay": false,
+      "ethnic": {
+        "id": "13",
+        "name": "白族",
+        "scope": "云南大理白族扎染生活"
+      },
+      "exact_text": {
+        "value": "三生有幸",
+        "characters": [
+          "三",
+          "生",
+          "有",
+          "幸"
+        ],
+        "character_count": 4,
+        "layout_lines": [
+          "三",
+          "生",
+          "有",
+          "幸"
+        ],
+        "reading_rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框",
+        "allow_extra_text": false
+      },
+      "format": {
+        "id": "3:4",
+        "target_pixels": [
+          1080,
+          1440
+        ],
+        "actual_pixels": null,
+        "native_pixels_verified": false
+      },
+      "reference": {
+        "path": "assets/approved-overview.png",
+        "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+        "width": 1448,
+        "height": 1086,
+        "origin": "用户在本对话中确认的生成式十卡总览",
+        "role": "审美基准，非民族学证据，非本版本重新生成的验收结果",
+        "attach_path": "${SKILL_ROOT}/assets/approved-overview.png"
+      },
+      "local_reference_cell": null,
+      "style_binding": "approved-folk-print-v3",
+      "route": "蓝白茶序",
+      "hero": "蓝白扎染布面",
+      "supports": [
+        "三道茶器",
+        "白族院落",
+        "苍山水线"
+      ],
+      "semantic": {
+        "type": "自定义祝福",
+        "motion": "保持输入词序，以温暖、清楚、有节奏的手写组织画面"
+      },
+      "palette": {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#E5E7E0",
+        "title": "#315F86",
+        "secondary": "#315F86",
+        "accent": "#A4BAC5",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      "background": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "composition": {
+        "id": "textile",
+        "name": "锦纹护字",
+        "rule": "织物纹集中一侧和边角，标题有连续透气区，无统一中央撕纸牌"
+      },
+      "typography": {
+        "skeleton_id": "clerical_ticket",
+        "skeleton": {
+          "name": "隶意票券",
+          "recipe": "字面扁阔，横势舒展，结体清楚，避免电脑打字感"
+        },
+        "craft_id": "cotton",
+        "craft": {
+          "name": "棉线织染",
+          "recipe": "经纬清晰、染色有深浅，字边轻纤维",
+          "avoid": "全图同一噪点滤镜",
+          "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+          "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+        },
+        "layout_id": "vertical",
+        "layout": {
+          "name": "开放竖写",
+          "min": 2,
+          "max": 12,
+          "rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框"
+        },
+        "dynamics": "中宫收紧、四面开张",
+        "fusion": "纹样呼应笔势但不代替关键笔画",
+        "surface": "经纬清晰、染色有深浅，字边轻纤维",
+        "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+        "negative_space": "主字周边连续低密度区，纸色不承担统一模板",
+        "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+      },
+      "label": null,
+      "seals": "纯几何小印记，不制造乱码篆文",
+      "cultural_review": {
+        "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+        "source_ids": [
+          "ethnic-directory"
+        ],
+        "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+        "queries": [
+          "白族 棉线织染 非遗 博物馆",
+          "白族 蓝白扎染布面 实物"
+        ]
+      },
+      "cultural_notes": [
+        "蓝白不等于青花瓷；扎染与蜡染不可混淆；不任意借宫廷器物",
+        "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+        "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+      ],
+      "visual_fingerprint": "fca3ff3ec1dd8c8b961f32abae6966fab258b071f9a7a846e88d96066e49fe3b",
+      "request_fingerprint": "aa073c5af713eef174e5ebf7f96299637c248587e98e8541238662acef2b89dc",
+      "seed": 0,
+      "variation_used": 0,
+      "generation": {
+        "native_tool_required": true,
+        "max_calls": 3,
+        "read_reference_before_generation": true,
+        "attach_reference_when_supported": true,
+        "current_host_verified": false,
+        "retry": "一次初稿，最多两次定向编辑；不能承诺局部编辑绝对不改变其他细节。"
+      },
+      "prompt": "以随附的已确认总览图作为绘画与印刷气质基准，创作一张完整中文祝福票。图案、文字和工艺色同时生成，禁止生成无字底图后再贴字。\n继承装饰性山河、细密民艺纹饰、清楚有力的书法和柔和纸绢触感。只借审美，不挪用参考图中其他民族的文化符号。没有附件时先读取本包基准图并尝试将其作为图像参考，不能声称已参考未读取的图片。\n主标题必须逐字为「三生有幸」，共4字，字序：三、生、有、幸。不得改字、增字、减字、同音替换或追加另一句。\n版式：开放竖写。自上而下单列，大小和字距依笔势调整，无统一纸片框；文字分组：三 / 生 / 有 / 幸。\n主字：隶意票券，字面扁阔，横势舒展，结体清楚，避免电脑打字感；中宫收紧、四面开张。工艺：棉线织染，经纬清晰、染色有深浅，字边轻纤维。不做立体挤出、亮片广告字，不为材质牺牲汉字。\n文化范围：白族，云南大理白族扎染生活。主锚点：蓝白扎染布面；辅助只用：三道茶器、白族院落、苍山水线。具体器物比例与花纹服从可信实物，不臆造文字或神圣符号。\n图面组织：锦纹护字，织物纹集中一侧和边角，标题有连续透气区，无统一中央撕纸牌。纹样呼应笔势但不代替关键笔画。主字周边连续低密度区，纸色不承担统一模板。祝福情绪：保持输入词序，以温暖、清楚、有节奏的手写组织画面。\n色彩：底色#E5E7E0、主字#315F86、副色#315F86、点色#A4BAC5。浅纸底中深色书法，彩纹控制在主场边侧。底材：淡纸或浅绢上有低对比细纹，清楚字腔不积污渍。时间质感：新制或轻经年的手工印色；保留完整质地，不强制污旧残破；完整清楚优先，做旧仅局部可选。\n目标尺寸：1080×1440。3:4独立布局，标题占据明确重心，不裁切长票冒充。\n不在卡面显示民族名称。不出现年份、日期、生肖纪年、未经核验的民族文字、随机外文、作者签名或水印。小印只用纯几何或标题内的字。\n避免：霓虹赛博；塑料三维浮雕；产品摄影摆拍；通用金属游戏字；全页污渍与裂纹；外文装饰堆砌；高饱和儿童贴纸；为求变化随机混用民族符号；每卡相同中央纸片；替参考作者生成签名或标识。\n文化防串项：蓝白不等于青花瓷；扎染与蜡染不可混淆；不任意借宫廷器物。",
+      "repair_prompt": "编辑本轮真实生成的原图，保持其绘画语言、主锚点、配色和主构图，仅修复已指出的错误。主标题严格是「三生有幸」，三、生、有、幸，不增加任何字。保留既定书体与平面工艺表现，不将标题替换成默认电脑字体。任何编辑都需重新检查全图，不能假定其余部分完全没变。"
+    },
+    {
+      "version": "3.0.0",
+      "status": "planned_not_rendered",
+      "render_mode": "integrated_direct",
+      "separate_text_overlay": false,
+      "ethnic": {
+        "id": "14",
+        "name": "土家族",
+        "scope": "湘鄂渝黔土家织锦语境"
+      },
+      "exact_text": {
+        "value": "福寿安康",
+        "characters": [
+          "福",
+          "寿",
+          "安",
+          "康"
+        ],
+        "character_count": 4,
+        "layout_lines": [
+          "福",
+          "寿",
+          "安",
+          "康"
+        ],
+        "reading_rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框",
+        "allow_extra_text": false
+      },
+      "format": {
+        "id": "3:4",
+        "target_pixels": [
+          1080,
+          1440
+        ],
+        "actual_pixels": null,
+        "native_pixels_verified": false
+      },
+      "reference": {
+        "path": "assets/approved-overview.png",
+        "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+        "width": 1448,
+        "height": 1086,
+        "origin": "用户在本对话中确认的生成式十卡总览",
+        "role": "审美基准，非民族学证据，非本版本重新生成的验收结果",
+        "attach_path": "${SKILL_ROOT}/assets/approved-overview.png"
+      },
+      "local_reference_cell": null,
+      "style_binding": "approved-folk-print-v3",
+      "route": "西兰经纬",
+      "hero": "西兰卡普几何织纹",
+      "supports": [
+        "织机局部",
+        "木楼轮廓",
+        "山地河流"
+      ],
+      "semantic": {
+        "type": "安康",
+        "motion": "稳定清楚、温暖有承托，不强制低饱和"
+      },
+      "palette": {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#111820",
+        "title": "#EEE0C9",
+        "secondary": "#111820",
+        "accent": "#24558A",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      "background": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "composition": {
+        "id": "textile",
+        "name": "锦纹护字",
+        "rule": "织物纹集中一侧和边角，标题有连续透气区，无统一中央撕纸牌"
+      },
+      "typography": {
+        "skeleton_id": "stele",
+        "skeleton": {
+          "name": "金石碑意",
+          "recipe": "方圆兼具、骨架坚实，边缘有轻微刻痕，不侵蚀主笔画"
+        },
+        "craft_id": "brocade",
+        "craft": {
+          "name": "织锦经纬",
+          "recipe": "经纬在笔画内连贯，菱形或阶梯转折服从所选织物结构",
+          "avoid": "没有穿插结构的万能贴图",
+          "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+          "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+        },
+        "layout_id": "vertical",
+        "layout": {
+          "name": "开放竖写",
+          "min": 2,
+          "max": 12,
+          "rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框"
+        },
+        "dynamics": "中宫收紧、四面开张",
+        "fusion": "纹样呼应笔势但不代替关键笔画",
+        "surface": "经纬在笔画内连贯，菱形或阶梯转折服从所选织物结构",
+        "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+        "negative_space": "主字周边连续低密度区，深色本身也可留白",
+        "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+      },
+      "label": null,
+      "seals": "纯几何小印记，不制造乱码篆文",
+      "cultural_review": {
+        "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+        "source_ids": [
+          "ethnic-directory"
+        ],
+        "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+        "queries": [
+          "土家族 织锦经纬 非遗 博物馆",
+          "土家族 西兰卡普几何织纹 实物"
+        ]
+      },
+      "cultural_notes": [
+        "织纹转折由经纬结构支持；不贴通用西域毯纹",
+        "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+        "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+      ],
+      "visual_fingerprint": "fb54f298d84aded44a019ad87824a7bd92a2cbdb85b8403c6ca0d7071dbbc794",
+      "request_fingerprint": "d4d6397cf7965b7f6ba434623b0ebac850ff9f6d4e0a91eb940716d98db0d787",
+      "seed": 0,
+      "variation_used": 0,
+      "generation": {
+        "native_tool_required": true,
+        "max_calls": 3,
+        "read_reference_before_generation": true,
+        "attach_reference_when_supported": true,
+        "current_host_verified": false,
+        "retry": "一次初稿，最多两次定向编辑；不能承诺局部编辑绝对不改变其他细节。"
+      },
+      "prompt": "以随附的已确认总览图作为绘画与印刷气质基准，创作一张完整中文祝福票。图案、文字和工艺色同时生成，禁止生成无字底图后再贴字。\n继承装饰性山河、细密民艺纹饰、清楚有力的书法和柔和纸绢触感。只借审美，不挪用参考图中其他民族的文化符号。没有附件时先读取本包基准图并尝试将其作为图像参考，不能声称已参考未读取的图片。\n主标题必须逐字为「福寿安康」，共4字，字序：福、寿、安、康。不得改字、增字、减字、同音替换或追加另一句。\n版式：开放竖写。自上而下单列，大小和字距依笔势调整，无统一纸片框；文字分组：福 / 寿 / 安 / 康。\n主字：金石碑意，方圆兼具、骨架坚实，边缘有轻微刻痕，不侵蚀主笔画；中宫收紧、四面开张。工艺：织锦经纬，经纬在笔画内连贯，菱形或阶梯转折服从所选织物结构。不做立体挤出、亮片广告字，不为材质牺牲汉字。\n文化范围：土家族，湘鄂渝黔土家织锦语境。主锚点：西兰卡普几何织纹；辅助只用：织机局部、木楼轮廓、山地河流。具体器物比例与花纹服从可信实物，不臆造文字或神圣符号。\n图面组织：锦纹护字，织物纹集中一侧和边角，标题有连续透气区，无统一中央撕纸牌。纹样呼应笔势但不代替关键笔画。主字周边连续低密度区，深色本身也可留白。祝福情绪：稳定清楚、温暖有承托，不强制低饱和。\n色彩：底色#111820、主字#EEE0C9、副色#111820、点色#24558A。深底托出亮字，纹样以细线和局部彩色浮现。底材：深绢或深色印纸，材质同色可见，主字区域平静。时间质感：新制或轻经年的手工印色；保留完整质地，不强制污旧残破；完整清楚优先，做旧仅局部可选。\n目标尺寸：1080×1440。3:4独立布局，标题占据明确重心，不裁切长票冒充。\n不在卡面显示民族名称。不出现年份、日期、生肖纪年、未经核验的民族文字、随机外文、作者签名或水印。小印只用纯几何或标题内的字。\n避免：霓虹赛博；塑料三维浮雕；产品摄影摆拍；通用金属游戏字；全页污渍与裂纹；外文装饰堆砌；高饱和儿童贴纸；为求变化随机混用民族符号；每卡相同中央纸片；替参考作者生成签名或标识。\n文化防串项：织纹转折由经纬结构支持；不贴通用西域毯纹。",
+      "repair_prompt": "编辑本轮真实生成的原图，保持其绘画语言、主锚点、配色和主构图，仅修复已指出的错误。主标题严格是「福寿安康」，福、寿、安、康，不增加任何字。保留既定书体与平面工艺表现，不将标题替换成默认电脑字体。任何编辑都需重新检查全图，不能假定其余部分完全没变。"
+    },
+    {
+      "version": "3.0.0",
+      "status": "planned_not_rendered",
+      "render_mode": "integrated_direct",
+      "separate_text_overlay": false,
+      "ethnic": {
+        "id": "15",
+        "name": "哈尼族",
+        "scope": "云南红河具体哈尼梯田社区"
+      },
+      "exact_text": {
+        "value": "五谷丰登",
+        "characters": [
+          "五",
+          "谷",
+          "丰",
+          "登"
+        ],
+        "character_count": 4,
+        "layout_lines": [
+          "五",
+          "谷",
+          "丰",
+          "登"
+        ],
+        "reading_rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框",
+        "allow_extra_text": false
+      },
+      "format": {
+        "id": "3:4",
+        "target_pixels": [
+          1080,
+          1440
+        ],
+        "actual_pixels": null,
+        "native_pixels_verified": false
+      },
+      "reference": {
+        "path": "assets/approved-overview.png",
+        "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+        "width": 1448,
+        "height": 1086,
+        "origin": "用户在本对话中确认的生成式十卡总览",
+        "role": "审美基准，非民族学证据，非本版本重新生成的验收结果",
+        "attach_path": "${SKILL_ROOT}/assets/approved-overview.png"
+      },
+      "local_reference_cell": null,
+      "style_binding": "approved-folk-print-v3",
+      "route": "梯田光阶",
+      "hero": "梯田水光的层次",
+      "supports": [
+        "稻穗",
+        "田间小路",
+        "当地民居远影"
+      ],
+      "semantic": {
+        "type": "丰足",
+        "motion": "收拢与展开并置，传达努力所得和生活丰足"
+      },
+      "palette": {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#5B3528",
+        "title": "#EEE2CC",
+        "secondary": "#1E2A2E",
+        "accent": "#D4A63A",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      },
+      "background": "所选主色的平面印色与细织理，色区有层次不叠万能噪点",
+      "composition": {
+        "id": "horizon",
+        "name": "山河承字",
+        "rule": "书法占上中部，低处山河为承托，远近有装饰性层次，主景不与标题同等抢眼"
+      },
+      "typography": {
+        "skeleton_id": "brush_banner",
+        "skeleton": {
+          "name": "粗笔榜书",
+          "recipe": "中宫紧而外笔开张，起收有顿挫，飞白只在非关键笔段"
+        },
+        "craft_id": "overprint",
+        "craft": {
+          "name": "纸本套印",
+          "recipe": "相邻色版细微错位，关键轮廓保持锐利",
+          "avoid": "彩色重影让汉字变形",
+          "edge": "完整轮廓，非关键收笔处允许少量干墨或透纸",
+          "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+        },
+        "layout_id": "vertical",
+        "layout": {
+          "name": "开放竖写",
+          "min": 2,
+          "max": 12,
+          "rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框"
+        },
+        "dynamics": "横势舒展、低重心",
+        "fusion": "标题与器物轮廓在一处轻交叠",
+        "surface": "相邻色版细微错位，关键轮廓保持锐利",
+        "edge": "完整轮廓，非关键收笔处允许少量干墨或透纸",
+        "negative_space": "主字周边连续低密度区，深色本身也可留白",
+        "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+      },
+      "label": null,
+      "seals": "纯几何小印记，不制造乱码篆文",
+      "cultural_review": {
+        "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+        "source_ids": [
+          "ethnic-directory"
+        ],
+        "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+        "queries": [
+          "哈尼族 纸本套印 非遗 博物馆",
+          "哈尼族 梯田水光的层次 实物"
+        ]
+      },
+      "cultural_notes": [
+        "不将某支系帽饰代表全部哈尼；蘑菇房须据具体地域",
+        "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+        "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+      ],
+      "visual_fingerprint": "22540526d018db85c2b40555321074fa5110aad2ba0e42b894f64512fa176b83",
+      "request_fingerprint": "9f6d66301b5e9f95f74b23be37134f1c42ae997e5fbbce0643540f58f8b8d2d9",
+      "seed": 0,
+      "variation_used": 0,
+      "generation": {
+        "native_tool_required": true,
+        "max_calls": 3,
+        "read_reference_before_generation": true,
+        "attach_reference_when_supported": true,
+        "current_host_verified": false,
+        "retry": "一次初稿，最多两次定向编辑；不能承诺局部编辑绝对不改变其他细节。"
+      },
+      "prompt": "以随附的已确认总览图作为绘画与印刷气质基准，创作一张完整中文祝福票。图案、文字和工艺色同时生成，禁止生成无字底图后再贴字。\n继承装饰性山河、细密民艺纹饰、清楚有力的书法和柔和纸绢触感。只借审美，不挪用参考图中其他民族的文化符号。没有附件时先读取本包基准图并尝试将其作为图像参考，不能声称已参考未读取的图片。\n主标题必须逐字为「五谷丰登」，共4字，字序：五、谷、丰、登。不得改字、增字、减字、同音替换或追加另一句。\n版式：开放竖写。自上而下单列，大小和字距依笔势调整，无统一纸片框；文字分组：五 / 谷 / 丰 / 登。\n主字：粗笔榜书，中宫紧而外笔开张，起收有顿挫，飞白只在非关键笔段；横势舒展、低重心。工艺：纸本套印，相邻色版细微错位，关键轮廓保持锐利。不做立体挤出、亮片广告字，不为材质牺牲汉字。\n文化范围：哈尼族，云南红河具体哈尼梯田社区。主锚点：梯田水光的层次；辅助只用：稻穗、田间小路、当地民居远影。具体器物比例与花纹服从可信实物，不臆造文字或神圣符号。\n图面组织：山河承字，书法占上中部，低处山河为承托，远近有装饰性层次，主景不与标题同等抢眼。标题与器物轮廓在一处轻交叠。主字周边连续低密度区，深色本身也可留白。祝福情绪：收拢与展开并置，传达努力所得和生活丰足。\n色彩：底色#5B3528、主字#EEE2CC、副色#1E2A2E、点色#D4A63A。工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光。底材：所选主色的平面印色与细织理，色区有层次不叠万能噪点。时间质感：新制或轻经年的手工印色；保留完整质地，不强制污旧残破；完整清楚优先，做旧仅局部可选。\n目标尺寸：1080×1440。3:4独立布局，标题占据明确重心，不裁切长票冒充。\n不在卡面显示民族名称。不出现年份、日期、生肖纪年、未经核验的民族文字、随机外文、作者签名或水印。小印只用纯几何或标题内的字。\n避免：霓虹赛博；塑料三维浮雕；产品摄影摆拍；通用金属游戏字；全页污渍与裂纹；外文装饰堆砌；高饱和儿童贴纸；为求变化随机混用民族符号；每卡相同中央纸片；替参考作者生成签名或标识。\n文化防串项：不将某支系帽饰代表全部哈尼；蘑菇房须据具体地域。",
+      "repair_prompt": "编辑本轮真实生成的原图，保持其绘画语言、主锚点、配色和主构图，仅修复已指出的错误。主标题严格是「五谷丰登」，五、谷、丰、登，不增加任何字。保留既定书体与平面工艺表现，不将标题替换成默认电脑字体。任何编辑都需重新检查全图，不能假定其余部分完全没变。"
+    },
+    {
+      "version": "3.0.0",
+      "status": "planned_not_rendered",
+      "render_mode": "integrated_direct",
+      "separate_text_overlay": false,
+      "ethnic": {
+        "id": "16",
+        "name": "哈萨克族",
+        "scope": "新疆天山或阿尔泰相关哈萨克社区"
+      },
+      "exact_text": {
+        "value": "吉星高照",
+        "characters": [
+          "吉",
+          "星",
+          "高",
+          "照"
+        ],
+        "character_count": 4,
+        "layout_lines": [
+          "吉",
+          "星",
+          "高",
+          "照"
+        ],
+        "reading_rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框",
+        "allow_extra_text": false
+      },
+      "format": {
+        "id": "3:4",
+        "target_pixels": [
+          1080,
+          1440
+        ],
+        "actual_pixels": null,
+        "native_pixels_verified": false
+      },
+      "reference": {
+        "path": "assets/approved-overview.png",
+        "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+        "width": 1448,
+        "height": 1086,
+        "origin": "用户在本对话中确认的生成式十卡总览",
+        "role": "审美基准，非民族学证据，非本版本重新生成的验收结果",
+        "attach_path": "${SKILL_ROOT}/assets/approved-overview.png"
+      },
+      "local_reference_cell": null,
+      "style_binding": "approved-folk-print-v3",
+      "route": "鹰翼天山",
+      "hero": "冬不拉与毡绣",
+      "supports": [
+        "牧场",
+        "毡房结构",
+        "马具纹带"
+      ],
+      "semantic": {
+        "type": "吉庆",
+        "motion": "浓淡与大小有起伏，主字明快有力"
+      },
+      "palette": {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#F2E5CF",
+        "title": "#815333",
+        "secondary": "#2990B5",
+        "accent": "#815333",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      "background": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "composition": {
+        "id": "instrument",
+        "name": "器物引势",
+        "rule": "一个准确器物局部放大或侧置，轮廓引向书法；细节不要覆盖主字"
+      },
+      "typography": {
+        "skeleton_id": "running_script",
+        "skeleton": {
+          "name": "清俊行书",
+          "recipe": "有连贯笔意但不省略辨识部件，粗细反差温和"
+        },
+        "craft_id": "felt",
+        "craft": {
+          "name": "织毯绒面",
+          "recipe": "短绒按笔画边缘收束，毡面形状保持清楚",
+          "avoid": "棉花云式蓬松立体字",
+          "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+          "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+        },
+        "layout_id": "vertical",
+        "layout": {
+          "name": "开放竖写",
+          "min": 2,
+          "max": 12,
+          "rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框"
+        },
+        "dynamics": "上下贯气、疏密有致",
+        "fusion": "标题与器物轮廓在一处轻交叠",
+        "surface": "短绒按笔画边缘收束，毡面形状保持清楚",
+        "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+        "negative_space": "主字周边连续低密度区，纸色不承担统一模板",
+        "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+      },
+      "label": null,
+      "seals": "纯几何小印记，不制造乱码篆文",
+      "cultural_review": {
+        "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+        "source_ids": [
+          "ethnic-directory"
+        ],
+        "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+        "queries": [
+          "哈萨克族 织毯绒面 非遗 博物馆",
+          "哈萨克族 冬不拉与毡绣 实物"
+        ]
+      },
+      "cultural_notes": [
+        "不同于马头琴；鹰猎仅在核验语境启用；毡房不能和蒙古包结构随意互换",
+        "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+        "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+      ],
+      "visual_fingerprint": "832e3fbae9439b46620234929915654390736a0aa47903ffa127933ffb6493b8",
+      "request_fingerprint": "1e5bbc6ed4ce25897abe8de374fb7c2793c5025312ab3eae2585cb5c6ca3ad11",
+      "seed": 0,
+      "variation_used": 0,
+      "generation": {
+        "native_tool_required": true,
+        "max_calls": 3,
+        "read_reference_before_generation": true,
+        "attach_reference_when_supported": true,
+        "current_host_verified": false,
+        "retry": "一次初稿，最多两次定向编辑；不能承诺局部编辑绝对不改变其他细节。"
+      },
+      "prompt": "以随附的已确认总览图作为绘画与印刷气质基准，创作一张完整中文祝福票。图案、文字和工艺色同时生成，禁止生成无字底图后再贴字。\n继承装饰性山河、细密民艺纹饰、清楚有力的书法和柔和纸绢触感。只借审美，不挪用参考图中其他民族的文化符号。没有附件时先读取本包基准图并尝试将其作为图像参考，不能声称已参考未读取的图片。\n主标题必须逐字为「吉星高照」，共4字，字序：吉、星、高、照。不得改字、增字、减字、同音替换或追加另一句。\n版式：开放竖写。自上而下单列，大小和字距依笔势调整，无统一纸片框；文字分组：吉 / 星 / 高 / 照。\n主字：清俊行书，有连贯笔意但不省略辨识部件，粗细反差温和；上下贯气、疏密有致。工艺：织毯绒面，短绒按笔画边缘收束，毡面形状保持清楚。不做立体挤出、亮片广告字，不为材质牺牲汉字。\n文化范围：哈萨克族，新疆天山或阿尔泰相关哈萨克社区。主锚点：冬不拉与毡绣；辅助只用：牧场、毡房结构、马具纹带。具体器物比例与花纹服从可信实物，不臆造文字或神圣符号。\n图面组织：器物引势，一个准确器物局部放大或侧置，轮廓引向书法；细节不要覆盖主字。标题与器物轮廓在一处轻交叠。主字周边连续低密度区，纸色不承担统一模板。祝福情绪：浓淡与大小有起伏，主字明快有力。\n色彩：底色#F2E5CF、主字#815333、副色#2990B5、点色#815333。浅纸底中深色书法，彩纹控制在主场边侧。底材：淡纸或浅绢上有低对比细纹，清楚字腔不积污渍。时间质感：新制或轻经年的手工印色；保留完整质地，不强制污旧残破；完整清楚优先，做旧仅局部可选。\n目标尺寸：1080×1440。3:4独立布局，标题占据明确重心，不裁切长票冒充。\n不在卡面显示民族名称。不出现年份、日期、生肖纪年、未经核验的民族文字、随机外文、作者签名或水印。小印只用纯几何或标题内的字。\n避免：霓虹赛博；塑料三维浮雕；产品摄影摆拍；通用金属游戏字；全页污渍与裂纹；外文装饰堆砌；高饱和儿童贴纸；为求变化随机混用民族符号；每卡相同中央纸片；替参考作者生成签名或标识。\n文化防串项：不同于马头琴；鹰猎仅在核验语境启用；毡房不能和蒙古包结构随意互换。",
+      "repair_prompt": "编辑本轮真实生成的原图，保持其绘画语言、主锚点、配色和主构图，仅修复已指出的错误。主标题严格是「吉星高照」，吉、星、高、照，不增加任何字。保留既定书体与平面工艺表现，不将标题替换成默认电脑字体。任何编辑都需重新检查全图，不能假定其余部分完全没变。"
+    },
+    {
+      "version": "3.0.0",
+      "status": "planned_not_rendered",
+      "render_mode": "integrated_direct",
+      "separate_text_overlay": false,
+      "ethnic": {
+        "id": "17",
+        "name": "傣族",
+        "scope": "云南西双版纳傣族织锦与水乡生活"
+      },
+      "exact_text": {
+        "value": "财源广进",
+        "characters": [
+          "财",
+          "源",
+          "广",
+          "进"
+        ],
+        "character_count": 4,
+        "layout_lines": [
+          "财",
+          "源",
+          "广",
+          "进"
+        ],
+        "reading_rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框",
+        "allow_extra_text": false
+      },
+      "format": {
+        "id": "3:4",
+        "target_pixels": [
+          1080,
+          1440
+        ],
+        "actual_pixels": null,
+        "native_pixels_verified": false
+      },
+      "reference": {
+        "path": "assets/approved-overview.png",
+        "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+        "width": 1448,
+        "height": 1086,
+        "origin": "用户在本对话中确认的生成式十卡总览",
+        "role": "审美基准，非民族学证据，非本版本重新生成的验收结果",
+        "attach_path": "${SKILL_ROOT}/assets/approved-overview.png"
+      },
+      "local_reference_cell": null,
+      "style_binding": "approved-folk-print-v3",
+      "route": "水金孔雀",
+      "hero": "傣锦与孔雀舞意象",
+      "supports": [
+        "热带叶片",
+        "水波",
+        "竹楼远影"
+      ],
+      "semantic": {
+        "type": "丰足",
+        "motion": "收拢与展开并置，传达努力所得和生活丰足"
+      },
+      "palette": {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#087E78",
+        "title": "#F3E5CF",
+        "secondary": "#087E78",
+        "accent": "#E16942",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      "background": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "composition": {
+        "id": "garden",
+        "name": "花叶成境",
+        "rule": "花叶形成开放框护，局部枝叶与标题呼应，背景是纸色或绢色而非照片景深"
+      },
+      "typography": {
+        "skeleton_id": "running_script",
+        "skeleton": {
+          "name": "清俊行书",
+          "recipe": "有连贯笔意但不省略辨识部件，粗细反差温和"
+        },
+        "craft_id": "brocade",
+        "craft": {
+          "name": "织锦经纬",
+          "recipe": "经纬在笔画内连贯，菱形或阶梯转折服从所选织物结构",
+          "avoid": "没有穿插结构的万能贴图",
+          "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+          "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+        },
+        "layout_id": "vertical",
+        "layout": {
+          "name": "开放竖写",
+          "min": 2,
+          "max": 12,
+          "rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框"
+        },
+        "dynamics": "上下贯气、疏密有致",
+        "fusion": "书法与山势共享方向，保持完整字腔",
+        "surface": "经纬在笔画内连贯，菱形或阶梯转折服从所选织物结构",
+        "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+        "negative_space": "主字周边连续低密度区，深色本身也可留白",
+        "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+      },
+      "label": null,
+      "seals": "纯几何小印记，不制造乱码篆文",
+      "cultural_review": {
+        "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+        "source_ids": [
+          "ethnic-directory"
+        ],
+        "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+        "queries": [
+          "傣族 织锦经纬 非遗 博物馆",
+          "傣族 傣锦与孔雀舞意象 实物"
+        ]
+      },
+      "cultural_notes": [
+        "不复制泰国文字；不把越南泰族织锦当傣锦；寺塔须核验地域形制",
+        "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+        "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+      ],
+      "visual_fingerprint": "b2037728fc46e912f66442a6bce31193912bb1dfba85a4ce3050fe7f43045325",
+      "request_fingerprint": "a5ab19f4ee4849b82d8f8125a7d1a5019368d3b078d0cfa6b3d856f6479a6ca5",
+      "seed": 0,
+      "variation_used": 0,
+      "generation": {
+        "native_tool_required": true,
+        "max_calls": 3,
+        "read_reference_before_generation": true,
+        "attach_reference_when_supported": true,
+        "current_host_verified": false,
+        "retry": "一次初稿，最多两次定向编辑；不能承诺局部编辑绝对不改变其他细节。"
+      },
+      "prompt": "以随附的已确认总览图作为绘画与印刷气质基准，创作一张完整中文祝福票。图案、文字和工艺色同时生成，禁止生成无字底图后再贴字。\n继承装饰性山河、细密民艺纹饰、清楚有力的书法和柔和纸绢触感。只借审美，不挪用参考图中其他民族的文化符号。没有附件时先读取本包基准图并尝试将其作为图像参考，不能声称已参考未读取的图片。\n主标题必须逐字为「财源广进」，共4字，字序：财、源、广、进。不得改字、增字、减字、同音替换或追加另一句。\n版式：开放竖写。自上而下单列，大小和字距依笔势调整，无统一纸片框；文字分组：财 / 源 / 广 / 进。\n主字：清俊行书，有连贯笔意但不省略辨识部件，粗细反差温和；上下贯气、疏密有致。工艺：织锦经纬，经纬在笔画内连贯，菱形或阶梯转折服从所选织物结构。不做立体挤出、亮片广告字，不为材质牺牲汉字。\n文化范围：傣族，云南西双版纳傣族织锦与水乡生活。主锚点：傣锦与孔雀舞意象；辅助只用：热带叶片、水波、竹楼远影。具体器物比例与花纹服从可信实物，不臆造文字或神圣符号。\n图面组织：花叶成境，花叶形成开放框护，局部枝叶与标题呼应，背景是纸色或绢色而非照片景深。书法与山势共享方向，保持完整字腔。主字周边连续低密度区，深色本身也可留白。祝福情绪：收拢与展开并置，传达努力所得和生活丰足。\n色彩：底色#087E78、主字#F3E5CF、副色#087E78、点色#E16942。深底托出亮字，纹样以细线和局部彩色浮现。底材：深绢或深色印纸，材质同色可见，主字区域平静。时间质感：新制或轻经年的手工印色；保留完整质地，不强制污旧残破；完整清楚优先，做旧仅局部可选。\n目标尺寸：1080×1440。3:4独立布局，标题占据明确重心，不裁切长票冒充。\n不在卡面显示民族名称。不出现年份、日期、生肖纪年、未经核验的民族文字、随机外文、作者签名或水印。小印只用纯几何或标题内的字。\n避免：霓虹赛博；塑料三维浮雕；产品摄影摆拍；通用金属游戏字；全页污渍与裂纹；外文装饰堆砌；高饱和儿童贴纸；为求变化随机混用民族符号；每卡相同中央纸片；替参考作者生成签名或标识。\n文化防串项：不复制泰国文字；不把越南泰族织锦当傣锦；寺塔须核验地域形制。",
+      "repair_prompt": "编辑本轮真实生成的原图，保持其绘画语言、主锚点、配色和主构图，仅修复已指出的错误。主标题严格是「财源广进」，财、源、广、进，不增加任何字。保留既定书体与平面工艺表现，不将标题替换成默认电脑字体。任何编辑都需重新检查全图，不能假定其余部分完全没变。"
+    },
+    {
+      "version": "3.0.0",
+      "status": "planned_not_rendered",
+      "render_mode": "integrated_direct",
+      "separate_text_overlay": false,
+      "ethnic": {
+        "id": "18",
+        "name": "黎族",
+        "scope": "海南具体黎族织染支系"
+      },
+      "exact_text": {
+        "value": "岁岁平安",
+        "characters": [
+          "岁",
+          "岁",
+          "平",
+          "安"
+        ],
+        "character_count": 4,
+        "layout_lines": [
+          "岁",
+          "岁",
+          "平",
+          "安"
+        ],
+        "reading_rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框",
+        "allow_extra_text": false
+      },
+      "format": {
+        "id": "3:4",
+        "target_pixels": [
+          1080,
+          1440
+        ],
+        "actual_pixels": null,
+        "native_pixels_verified": false
+      },
+      "reference": {
+        "path": "assets/approved-overview.png",
+        "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+        "width": 1448,
+        "height": 1086,
+        "origin": "用户在本对话中确认的生成式十卡总览",
+        "role": "审美基准，非民族学证据，非本版本重新生成的验收结果",
+        "attach_path": "${SKILL_ROOT}/assets/approved-overview.png"
+      },
+      "local_reference_cell": null,
+      "style_binding": "approved-folk-print-v3",
+      "route": "黎锦人纹",
+      "hero": "黎锦几何织纹",
+      "supports": [
+        "棉线",
+        "织机结构",
+        "热带山地"
+      ],
+      "semantic": {
+        "type": "安康",
+        "motion": "稳定清楚、温暖有承托，不强制低饱和"
+      },
+      "palette": {
+        "id": "color",
+        "name": "主色成境",
+        "background": "#16191A",
+        "title": "#F1EBDD",
+        "secondary": "#16191A",
+        "accent": "#E1AF38",
+        "behavior": "工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光"
+      },
+      "background": "所选主色的平面印色与细织理，色区有层次不叠万能噪点",
+      "composition": {
+        "id": "textile",
+        "name": "锦纹护字",
+        "rule": "织物纹集中一侧和边角，标题有连续透气区，无统一中央撕纸牌"
+      },
+      "typography": {
+        "skeleton_id": "woodblock_regular",
+        "skeleton": {
+          "name": "木版楷意",
+          "recipe": "方整字骨配轻刻痕，印墨略不匀，保留完整字形"
+        },
+        "craft_id": "brocade",
+        "craft": {
+          "name": "织锦经纬",
+          "recipe": "经纬在笔画内连贯，菱形或阶梯转折服从所选织物结构",
+          "avoid": "没有穿插结构的万能贴图",
+          "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+          "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+        },
+        "layout_id": "vertical",
+        "layout": {
+          "name": "开放竖写",
+          "min": 2,
+          "max": 12,
+          "rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框"
+        },
+        "dynamics": "横势舒展、低重心",
+        "fusion": "书法与山势共享方向，保持完整字腔",
+        "surface": "经纬在笔画内连贯，菱形或阶梯转折服从所选织物结构",
+        "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+        "negative_space": "主字周边连续低密度区，深色本身也可留白",
+        "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+      },
+      "label": null,
+      "seals": "纯几何小印记，不制造乱码篆文",
+      "cultural_review": {
+        "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+        "source_ids": [
+          "ethnic-directory"
+        ],
+        "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+        "queries": [
+          "黎族 织锦经纬 非遗 博物馆",
+          "黎族 黎锦几何织纹 实物"
+        ]
+      },
+      "cultural_notes": [
+        "不可用蓝白蜡染或苗族银冠代替黎锦；人形纹不作无来源解释",
+        "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+        "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+      ],
+      "visual_fingerprint": "cbb3d9830a4f072fcf2e4fd40bdd0a22e1f38b4ae6ff1692c18d5bc44bcb56bf",
+      "request_fingerprint": "b9fb2f9c7ed1ab72a5f1b87bfab129cf5224164fb7af5e3eeb8bd096461c918f",
+      "seed": 0,
+      "variation_used": 0,
+      "generation": {
+        "native_tool_required": true,
+        "max_calls": 3,
+        "read_reference_before_generation": true,
+        "attach_reference_when_supported": true,
+        "current_host_verified": false,
+        "retry": "一次初稿，最多两次定向编辑；不能承诺局部编辑绝对不改变其他细节。"
+      },
+      "prompt": "以随附的已确认总览图作为绘画与印刷气质基准，创作一张完整中文祝福票。图案、文字和工艺色同时生成，禁止生成无字底图后再贴字。\n继承装饰性山河、细密民艺纹饰、清楚有力的书法和柔和纸绢触感。只借审美，不挪用参考图中其他民族的文化符号。没有附件时先读取本包基准图并尝试将其作为图像参考，不能声称已参考未读取的图片。\n主标题必须逐字为「岁岁平安」，共4字，字序：岁、岁、平、安。不得改字、增字、减字、同音替换或追加另一句。\n版式：开放竖写。自上而下单列，大小和字距依笔势调整，无统一纸片框；文字分组：岁 / 岁 / 平 / 安。\n主字：木版楷意，方整字骨配轻刻痕，印墨略不匀，保留完整字形；横势舒展、低重心。工艺：织锦经纬，经纬在笔画内连贯，菱形或阶梯转折服从所选织物结构。不做立体挤出、亮片广告字，不为材质牺牲汉字。\n文化范围：黎族，海南具体黎族织染支系。主锚点：黎锦几何织纹；辅助只用：棉线、织机结构、热带山地。具体器物比例与花纹服从可信实物，不臆造文字或神圣符号。\n图面组织：锦纹护字，织物纹集中一侧和边角，标题有连续透气区，无统一中央撕纸牌。书法与山势共享方向，保持完整字腔。主字周边连续低密度区，深色本身也可留白。祝福情绪：稳定清楚、温暖有承托，不强制低饱和。\n色彩：底色#16191A、主字#F1EBDD、副色#16191A、点色#E1AF38。工艺色作主底，主字保持清楚明度差；金色只作平薄印色，不出现镜头炫光。底材：所选主色的平面印色与细织理，色区有层次不叠万能噪点。时间质感：新制或轻经年的手工印色；保留完整质地，不强制污旧残破；完整清楚优先，做旧仅局部可选。\n目标尺寸：1080×1440。3:4独立布局，标题占据明确重心，不裁切长票冒充。\n不在卡面显示民族名称。不出现年份、日期、生肖纪年、未经核验的民族文字、随机外文、作者签名或水印。小印只用纯几何或标题内的字。\n避免：霓虹赛博；塑料三维浮雕；产品摄影摆拍；通用金属游戏字；全页污渍与裂纹；外文装饰堆砌；高饱和儿童贴纸；为求变化随机混用民族符号；每卡相同中央纸片；替参考作者生成签名或标识。\n文化防串项：不可用蓝白蜡染或苗族银冠代替黎锦；人形纹不作无来源解释。",
+      "repair_prompt": "编辑本轮真实生成的原图，保持其绘画语言、主锚点、配色和主构图，仅修复已指出的错误。主标题严格是「岁岁平安」，岁、岁、平、安，不增加任何字。保留既定书体与平面工艺表现，不将标题替换成默认电脑字体。任何编辑都需重新检查全图，不能假定其余部分完全没变。"
+    },
+    {
+      "version": "3.0.0",
+      "status": "planned_not_rendered",
+      "render_mode": "integrated_direct",
+      "separate_text_overlay": false,
+      "ethnic": {
+        "id": "19",
+        "name": "傈僳族",
+        "scope": "滇川傈僳族相关织带社区"
+      },
+      "exact_text": {
+        "value": "福至心灵",
+        "characters": [
+          "福",
+          "至",
+          "心",
+          "灵"
+        ],
+        "character_count": 4,
+        "layout_lines": [
+          "福",
+          "至",
+          "心",
+          "灵"
+        ],
+        "reading_rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框",
+        "allow_extra_text": false
+      },
+      "format": {
+        "id": "3:4",
+        "target_pixels": [
+          1080,
+          1440
+        ],
+        "actual_pixels": null,
+        "native_pixels_verified": false
+      },
+      "reference": {
+        "path": "assets/approved-overview.png",
+        "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+        "width": 1448,
+        "height": 1086,
+        "origin": "用户在本对话中确认的生成式十卡总览",
+        "role": "审美基准，非民族学证据，非本版本重新生成的验收结果",
+        "attach_path": "${SKILL_ROOT}/assets/approved-overview.png"
+      },
+      "local_reference_cell": null,
+      "style_binding": "approved-folk-print-v3",
+      "route": "山带向上",
+      "hero": "彩织带的宽窄节律",
+      "supports": [
+        "山路",
+        "织布结构",
+        "植物线影"
+      ],
+      "semantic": {
+        "type": "吉庆",
+        "motion": "浓淡与大小有起伏，主字明快有力"
+      },
+      "palette": {
+        "id": "light",
+        "name": "浅纸深字",
+        "background": "#EEE2D4",
+        "title": "#111820",
+        "secondary": "#111820",
+        "accent": "#1D7A8F",
+        "behavior": "浅纸底中深色书法，彩纹控制在主场边侧"
+      },
+      "background": "淡纸或浅绢上有低对比细纹，清楚字腔不积污渍",
+      "composition": {
+        "id": "ribbon",
+        "name": "绸带回旋",
+        "rule": "色带绕开字腔形成流动留白，文字按清楚读序出现，不做飞散拼贴"
+      },
+      "typography": {
+        "skeleton_id": "folk_hand",
+        "skeleton": {
+          "name": "民间手写",
+          "recipe": "笔压有起伏，字面大小略错落，整体字序清楚"
+        },
+        "craft_id": "cotton",
+        "craft": {
+          "name": "棉线织染",
+          "recipe": "经纬清晰、染色有深浅，字边轻纤维",
+          "avoid": "全图同一噪点滤镜",
+          "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+          "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+        },
+        "layout_id": "vertical",
+        "layout": {
+          "name": "开放竖写",
+          "min": 2,
+          "max": 12,
+          "rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框"
+        },
+        "dynamics": "横势舒展、低重心",
+        "fusion": "标题与器物轮廓在一处轻交叠",
+        "surface": "经纬清晰、染色有深浅，字边轻纤维",
+        "edge": "细纹沿笔画走向，边缘完整，关键字腔不被纤维覆盖",
+        "negative_space": "主字周边连续低密度区，纸色不承担统一模板",
+        "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+      },
+      "label": null,
+      "seals": "纯几何小印记，不制造乱码篆文",
+      "cultural_review": {
+        "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+        "source_ids": [
+          "ethnic-directory"
+        ],
+        "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+        "queries": [
+          "傈僳族 棉线织染 非遗 博物馆",
+          "傈僳族 彩织带的宽窄节律 实物"
+        ]
+      },
+      "cultural_notes": [
+        "刀杆节等仪式不猎奇；服饰结构先核验；不默认大银冠",
+        "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+        "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+      ],
+      "visual_fingerprint": "04e2a1bd211d332dc387a2b1840272264e2acc51e1e431f1e93a009d277417bf",
+      "request_fingerprint": "9c37a6f96326e775821ba686409e298e8c32aa9c6aaef75e65446abb469db5a7",
+      "seed": 0,
+      "variation_used": 0,
+      "generation": {
+        "native_tool_required": true,
+        "max_calls": 3,
+        "read_reference_before_generation": true,
+        "attach_reference_when_supported": true,
+        "current_host_verified": false,
+        "retry": "一次初稿，最多两次定向编辑；不能承诺局部编辑绝对不改变其他细节。"
+      },
+      "prompt": "以随附的已确认总览图作为绘画与印刷气质基准，创作一张完整中文祝福票。图案、文字和工艺色同时生成，禁止生成无字底图后再贴字。\n继承装饰性山河、细密民艺纹饰、清楚有力的书法和柔和纸绢触感。只借审美，不挪用参考图中其他民族的文化符号。没有附件时先读取本包基准图并尝试将其作为图像参考，不能声称已参考未读取的图片。\n主标题必须逐字为「福至心灵」，共4字，字序：福、至、心、灵。不得改字、增字、减字、同音替换或追加另一句。\n版式：开放竖写。自上而下单列，大小和字距依笔势调整，无统一纸片框；文字分组：福 / 至 / 心 / 灵。\n主字：民间手写，笔压有起伏，字面大小略错落，整体字序清楚；横势舒展、低重心。工艺：棉线织染，经纬清晰、染色有深浅，字边轻纤维。不做立体挤出、亮片广告字，不为材质牺牲汉字。\n文化范围：傈僳族，滇川傈僳族相关织带社区。主锚点：彩织带的宽窄节律；辅助只用：山路、织布结构、植物线影。具体器物比例与花纹服从可信实物，不臆造文字或神圣符号。\n图面组织：绸带回旋，色带绕开字腔形成流动留白，文字按清楚读序出现，不做飞散拼贴。标题与器物轮廓在一处轻交叠。主字周边连续低密度区，纸色不承担统一模板。祝福情绪：浓淡与大小有起伏，主字明快有力。\n色彩：底色#EEE2D4、主字#111820、副色#111820、点色#1D7A8F。浅纸底中深色书法，彩纹控制在主场边侧。底材：淡纸或浅绢上有低对比细纹，清楚字腔不积污渍。时间质感：新制或轻经年的手工印色；保留完整质地，不强制污旧残破；完整清楚优先，做旧仅局部可选。\n目标尺寸：1080×1440。3:4独立布局，标题占据明确重心，不裁切长票冒充。\n不在卡面显示民族名称。不出现年份、日期、生肖纪年、未经核验的民族文字、随机外文、作者签名或水印。小印只用纯几何或标题内的字。\n避免：霓虹赛博；塑料三维浮雕；产品摄影摆拍；通用金属游戏字；全页污渍与裂纹；外文装饰堆砌；高饱和儿童贴纸；为求变化随机混用民族符号；每卡相同中央纸片；替参考作者生成签名或标识。\n文化防串项：刀杆节等仪式不猎奇；服饰结构先核验；不默认大银冠。",
+      "repair_prompt": "编辑本轮真实生成的原图，保持其绘画语言、主锚点、配色和主构图，仅修复已指出的错误。主标题严格是「福至心灵」，福、至、心、灵，不增加任何字。保留既定书体与平面工艺表现，不将标题替换成默认电脑字体。任何编辑都需重新检查全图，不能假定其余部分完全没变。"
+    },
+    {
+      "version": "3.0.0",
+      "status": "planned_not_rendered",
+      "render_mode": "integrated_direct",
+      "separate_text_overlay": false,
+      "ethnic": {
+        "id": "20",
+        "name": "佤族",
+        "scope": "云南佤族木鼓与织物生活"
+      },
+      "exact_text": {
+        "value": "红火兴旺",
+        "characters": [
+          "红",
+          "火",
+          "兴",
+          "旺"
+        ],
+        "character_count": 4,
+        "layout_lines": [
+          "红",
+          "火",
+          "兴",
+          "旺"
+        ],
+        "reading_rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框",
+        "allow_extra_text": false
+      },
+      "format": {
+        "id": "3:4",
+        "target_pixels": [
+          1080,
+          1440
+        ],
+        "actual_pixels": null,
+        "native_pixels_verified": false
+      },
+      "reference": {
+        "path": "assets/approved-overview.png",
+        "sha256": "127daee85cf27f223771099b15c76470a239cc914b9fed206411ac6758fe15eb",
+        "width": 1448,
+        "height": 1086,
+        "origin": "用户在本对话中确认的生成式十卡总览",
+        "role": "审美基准，非民族学证据，非本版本重新生成的验收结果",
+        "attach_path": "${SKILL_ROOT}/assets/approved-overview.png"
+      },
+      "local_reference_cell": null,
+      "style_binding": "approved-folk-print-v3",
+      "route": "木鼓震纹",
+      "hero": "有依据的木鼓外形",
+      "supports": [
+        "黑红织带",
+        "山林",
+        "普通节庆舞步"
+      ],
+      "semantic": {
+        "type": "自定义祝福",
+        "motion": "保持输入词序，以温暖、清楚、有节奏的手写组织画面"
+      },
+      "palette": {
+        "id": "dark",
+        "name": "深色明字",
+        "background": "#111111",
+        "title": "#E5D9C7",
+        "secondary": "#111111",
+        "accent": "#C98B2E",
+        "behavior": "深底托出亮字，纹样以细线和局部彩色浮现"
+      },
+      "background": "深绢或深色印纸，材质同色可见，主字区域平静",
+      "composition": {
+        "id": "night",
+        "name": "夜色节庆",
+        "rule": "黑红或深色底，节律性图纹和少量灯火，文字鲜明温暖，避开猎奇仪式与熔岩特效"
+      },
+      "typography": {
+        "skeleton_id": "stele",
+        "skeleton": {
+          "name": "金石碑意",
+          "recipe": "方圆兼具、骨架坚实，边缘有轻微刻痕，不侵蚀主笔画"
+        },
+        "craft_id": "woodprint",
+        "craft": {
+          "name": "木刻版画",
+          "recipe": "边缘轻刀痕、平涂墨色、局部透纸，仍以完整书法字骨为先",
+          "avoid": "把印刷纸面画成木板雕塑",
+          "edge": "局部轻刻口或切边，辨识性笔画完整",
+          "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+        },
+        "layout_id": "vertical",
+        "layout": {
+          "name": "开放竖写",
+          "min": 2,
+          "max": 12,
+          "rule": "自上而下单列，大小和字距依笔势调整，无统一纸片框"
+        },
+        "dynamics": "上下贯气、疏密有致",
+        "fusion": "标题与器物轮廓在一处轻交叠",
+        "surface": "边缘轻刀痕、平涂墨色、局部透纸，仍以完整书法字骨为先",
+        "edge": "局部轻刻口或切边，辨识性笔画完整",
+        "negative_space": "主字周边连续低密度区，深色本身也可留白",
+        "time": "新制或轻经年的手工印色；保留完整质地，不强制污旧残破"
+      },
+      "label": null,
+      "seals": "纯几何小印记，不制造乱码篆文",
+      "cultural_review": {
+        "status": "研究索引＋保守创作锚点；未做全体社区专家鉴定",
+        "source_ids": [
+          "ethnic-directory"
+        ],
+        "source_scope": "名录仅核对民族名称；工艺与地区为待核验研究关键词，不能用名录充当专属纹样证据。",
+        "queries": [
+          "佤族 木刻版画 非遗 博物馆",
+          "佤族 有依据的木鼓外形 实物"
+        ]
+      },
+      "cultural_notes": [
+        "禁止人头猎奇、恐怖祭祀、泛非洲图腾柱",
+        "当前记录是有范围的设计路线，不宣称覆盖该民族全部支系、审美或信仰。",
+        "具体纹样、器物形制、服饰必须另找实物或社区资料，不从人物面貌推断民族。"
+      ],
+      "visual_fingerprint": "e0833f132deb1857c50907c968e1b2e8f99934b19194b365590a586807b1fda5",
+      "request_fingerprint": "af19bd9fb5369679f589ed3f80ff361c050dd23f175666d7c17137d4b40773e0",
+      "seed": 0,
+      "variation_used": 0,
+      "generation": {
+        "native_tool_required": true,
+        "max_calls": 3,
+        "read_reference_before_generation": true,
+        "attach_reference_when_supported": true,
+        "current_host_verified": false,
+        "retry": "一次初稿，最多两次定向编辑；不能承诺局部编辑绝对不改变其他细节。"
+      },
+      "prompt": "以随附的已确认总览图作为绘画与印刷气质基准，创作一张完整中文祝福票。图案、文字和工艺色同时生成，禁止生成无字底图后再贴字。\n继承装饰性山河、细密民艺纹饰、清楚有力的书法和柔和纸绢触感。只借审美，不挪用参考图中其他民族的文化符号。没有附件时先读取本包基准图并尝试将其作为图像参考，不能声称已参考未读取的图片。\n主标题必须逐字为「红火兴旺」，共4字，字序：红、火、兴、旺。不得改字、增字、减字、同音替换或追加另一句。\n版式：开放竖写。自上而下单列，大小和字距依笔势调整，无统一纸片框；文字分组：红 / 火 / 兴 / 旺。\n主字：金石碑意，方圆兼具、骨架坚实，边缘有轻微刻痕，不侵蚀主笔画；上下贯气、疏密有致。工艺：木刻版画，边缘轻刀痕、平涂墨色、局部透纸，仍以完整书法字骨为先。不做立体挤出、亮片广告字，不为材质牺牲汉字。\n文化范围：佤族，云南佤族木鼓与织物生活。主锚点：有依据的木鼓外形；辅助只用：黑红织带、山林、普通节庆舞步。具体器物比例与花纹服从可信实物，不臆造文字或神圣符号。\n图面组织：夜色节庆，黑红或深色底，节律性图纹和少量灯火，文字鲜明温暖，避开猎奇仪式与熔岩特效。标题与器物轮廓在一处轻交叠。主字周边连续低密度区，深色本身也可留白。祝福情绪：保持输入词序，以温暖、清楚、有节奏的手写组织画面。\n色彩：底色#111111、主字#E5D9C7、副色#111111、点色#C98B2E。深底托出亮字，纹样以细线和局部彩色浮现。底材：深绢或深色印纸，材质同色可见，主字区域平静。时间质感：新制或轻经年的手工印色；保留完整质地，不强制污旧残破；完整清楚优先，做旧仅局部可选。\n目标尺寸：1080×1440。3:4独立布局，标题占据明确重心，不裁切长票冒充。\n不在卡面显示民族名称。不出现年份、日期、生肖纪年、未经核验的民族文字、随机外文、作者签名或水印。小印只用纯几何或标题内的字。\n避免：霓虹赛博；塑料三维浮雕；产品摄影摆拍；通用金属游戏字；全页污渍与裂纹；外文装饰堆砌；高饱和儿童贴纸；为求变化随机混用民族符号；每卡相同中央纸片；替参考作者生成签名或标识。\n文化防串项：禁止人头猎奇、恐怖祭祀、泛非洲图腾柱。",
+      "repair_prompt": "编辑本轮真实生成的原图，保持其绘画语言、主锚点、配色和主构图，仅修复已指出的错误。主标题严格是「红火兴旺」，红、火、兴、旺，不增加任何字。保留既定书体与平面工艺表现，不将标题替换成默认电脑字体。任何编辑都需重新检查全图，不能假定其余部分完全没变。"
+    }
+  ],
+  "prompt": "生成一张5列2行、共10个独立卡位的中华民族祝福票总览图。随附参考图定义古典民艺印刷、书法张力、精细纹饰、山河层次和整套展陈秩序。每卡是不同民族的独立设计，图与准确文字同时生成，禁止多出来的卡、重复民族、卡位错序或总览里混入另一套画风。\n第1卡，位于第1行第1列：主标题「福气满满」；字序福、气、满、满；侗族的鼓楼木构层叠，辅助风雨桥、侗锦；门庭纳福；木牌匾体＋木刻版画，开放竖写；底#253A52、字#EFE5D6、点色#BFC4C2。小标签「侗族」。文化防串：鼓楼不画成佛塔；银冠不代替侗族所有工艺；大歌不画成仪式法阵\n第2卡，位于第1行第2列：主标题「万事顺意」；字序万、事、顺、意；瑶族的修长长鼓与挑花织带，辅助红黑绣边、山花；器物引势；民间手写＋刺绣针脚，开放竖写；底#171A1C、字#F1E2CE、点色#1F4A73。小标签「瑶族」。文化防串：不同瑶族支系头饰不同；不拼接苗族银角冠；鼓形核验\n第3卡，位于第1行第3列：主标题「三生有幸」；字序三、生、有、幸；白族的蓝白扎染布面，辅助三道茶器、白族院落；锦纹护字；隶意票券＋棉线织染，开放竖写；底#E5E7E0、字#315F86、点色#A4BAC5。小标签「白族」。文化防串：蓝白不等于青花瓷；扎染与蜡染不可混淆；不任意借宫廷器物\n第4卡，位于第1行第4列：主标题「福寿安康」；字序福、寿、安、康；土家族的西兰卡普几何织纹，辅助织机局部、木楼轮廓；锦纹护字；金石碑意＋织锦经纬，开放竖写；底#111820、字#EEE0C9、点色#24558A。小标签「土家族」。文化防串：织纹转折由经纬结构支持；不贴通用西域毯纹\n第5卡，位于第1行第5列：主标题「五谷丰登」；字序五、谷、丰、登；哈尼族的梯田水光的层次，辅助稻穗、田间小路；山河承字；粗笔榜书＋纸本套印，开放竖写；底#5B3528、字#EEE2CC、点色#D4A63A。小标签「哈尼族」。文化防串：不将某支系帽饰代表全部哈尼；蘑菇房须据具体地域\n第6卡，位于第2行第1列：主标题「吉星高照」；字序吉、星、高、照；哈萨克族的冬不拉与毡绣，辅助牧场、毡房结构；器物引势；清俊行书＋织毯绒面，开放竖写；底#F2E5CF、字#815333、点色#815333。小标签「哈萨克族」。文化防串：不同于马头琴；鹰猎仅在核验语境启用；毡房不能和蒙古包结构随意互换\n第7卡，位于第2行第2列：主标题「财源广进」；字序财、源、广、进；傣族的傣锦与孔雀舞意象，辅助热带叶片、水波；花叶成境；清俊行书＋织锦经纬，开放竖写；底#087E78、字#F3E5CF、点色#E16942。小标签「傣族」。文化防串：不复制泰国文字；不把越南泰族织锦当傣锦；寺塔须核验地域形制\n第8卡，位于第2行第3列：主标题「岁岁平安」；字序岁、岁、平、安；黎族的黎锦几何织纹，辅助棉线、织机结构；锦纹护字；木版楷意＋织锦经纬，开放竖写；底#16191A、字#F1EBDD、点色#E1AF38。小标签「黎族」。文化防串：不可用蓝白蜡染或苗族银冠代替黎锦；人形纹不作无来源解释\n第9卡，位于第2行第4列：主标题「福至心灵」；字序福、至、心、灵；傈僳族的彩织带的宽窄节律，辅助山路、织布结构；绸带回旋；民间手写＋棉线织染，开放竖写；底#EEE2D4、字#111820、点色#1D7A8F。小标签「傈僳族」。文化防串：刀杆节等仪式不猎奇；服饰结构先核验；不默认大银冠\n第10卡，位于第2行第5列：主标题「红火兴旺」；字序红、火、兴、旺；佤族的有依据的木鼓外形，辅助黑红织带、山林；夜色节庆；金石碑意＋木刻版画，开放竖写；底#111111、字#E5D9C7、点色#C98B2E。小标签「佤族」。文化防串：禁止人头猎奇、恐怖祭祀、泛非洲图腾柱\n卡位之间只保留细窄浅色间隔；底部有细薄的浅纸色山水收束带，主字清楚大于说明。底部总题只写「中华民族祝福票」，不写年份、日期、数字编号、作者名、外文或随机小字。主字以宽笔、行书、碑意和票券书写为同族群变化；工艺差异为平面细节，不改成立体广告。图面可有浅纸、深靛、青绿、朱红等不同底色，标题周围保持明度差和可读空间。仅把这张图交付为系列总览，不声称任一卡位是1080×2336原生单图。",
+  "generation_budget": {
+    "initial_calls": 1,
+    "max_repair_calls": 1
+  },
+  "diversity": {
+    "skeletons": 7,
+    "crafts": 6,
+    "layouts": 1,
+    "palettes": 3,
+    "note": "这些是方案变量统计，不是成图视觉评分。无强制异画种配额。"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "zhonghua-blessing-ticket",
+  "version": "3.0.0",
+  "description": "中华民族祝福票：自包含生图Skill与可选离线编译工具。",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "中华民族祝福票",
+    "shortDescription": "55民族祝福票与十卡总览",
+    "developerName": "爆裂队长NEXT"
+  }
+}

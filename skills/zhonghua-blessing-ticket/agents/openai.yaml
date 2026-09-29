@@ -1,0 +1,6 @@
+interface:
+  display_name: "中华民族祝福票"
+  short_description: "按民族与祝福词，生成图文一体祝福卡和十卡总览"
+  default_prompt: "使用 $zhonghua-blessing-ticket 为苗族生成大吉大利，3:4。"
+policy:
+  allow_implicit_invocation: true

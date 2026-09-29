@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zhonghua-blessing-ticket",
+  "version": "3.0.0",
+  "description": "输入祝福词、选择少数民族，按已确认的古典民艺印刷风格生成图文一体祝福票与十卡总览。",
+  "author": {"name": "爆裂队长NEXT"},
+  "license": "MulanPSL-2.0",
+  "keywords": ["祝福票", "民族美学", "生图", "中文书法"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "中华民族祝福票",
+        "shortDescription": "55民族独立审美，图与中文一体生成",
+        "developerName": "爆裂队长NEXT",
+        "defaultPrompt": ["用中华民族祝福票为苗族生成大吉大利，3:4。", "生成第一辑十民族祝福票总览。"]
+      }
+    }
+  }
+}
