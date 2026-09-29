@@ -8,7 +8,7 @@
 [![版本](https://img.shields.io/badge/版本-3.0.0-8A8378)](https://github.com/dososo/zhonghua-blessing-ticket/releases/latest)
 [![离线验证](https://github.com/dososo/zhonghua-blessing-ticket/actions/workflows/test.yml/badge.svg)](https://github.com/dososo/zhonghua-blessing-ticket/actions/workflows/test.yml)
 
-[下载 Skill](https://github.com/dososo/zhonghua-blessing-ticket/releases/latest) · [三步安装](#安装) · [看六辑图集](#六辑一览) · [一句话使用](#一句话使用)
+[下载 Skill](https://github.com/dososo/zhonghua-blessing-ticket/releases/latest) · [看介绍视频](#视频介绍) · [三步安装](#安装) · [看六辑图集](#六辑一览) · [一句话使用](#一句话使用)
 
 </div>
 
@@ -25,6 +25,20 @@
 它固定在已认可的「山河锦意」审美体系中：古典民艺印刷、清楚的书法主视觉、装饰性的山河层次，以及浅纸、深靛、青绿、朱红之间的冷暖呼应。**主标题与图案一次生成**，不会默认先做无字底图再贴文字。
 
 单张可以用来送祝福、作壁纸或分享；总览可以把同一辑的十个设计放在一幅画布里观看。图像模型由宿主提供，Skill 负责设计记录、参考输入和验收流程。
+
+## 视频介绍
+
+从一句话调用，到六辑作品与三种交付形式。
+
+<p align="center">
+  <a href="https://github.com/dososo/zhonghua-blessing-ticket/releases/download/v3.0.0/zhbt-promo-16x9.mp4">
+    <img src="assets/readme/video-poster.png" alt="中华民族祝福票介绍短片，点击下载观看" width="720">
+  </a>
+</p>
+<p align="center">
+  40.8 秒 · 16:9 · 1080p<br>
+  <a href="https://github.com/dososo/zhonghua-blessing-ticket/releases/download/v3.0.0/zhbt-promo-16x9.mp4">下载 MP4 观看完整介绍</a>
+</p>
 
 ## 一句话使用
 
