@@ -88,4 +88,7 @@ def main(argv=None):
     r=check_release();text=json.dumps(r,ensure_ascii=False,indent=2)+'\n'
     if a.out:a.out.parent.mkdir(parents=True,exist_ok=True);a.out.write_text(text,encoding='utf-8')
     print(text);return 0 if r['ok'] else 1
-if __name__=='__main__':raise SystemExit(main())
+if __name__=='__main__':
+    # 管道输出统一为UTF-8，避免Windows默认编码无法表示中文。
+    for stream in (sys.stdout,sys.stderr):stream.reconfigure(encoding='utf-8')
+    raise SystemExit(main())

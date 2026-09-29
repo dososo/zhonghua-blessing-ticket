@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import sys
 import zipfile
 from pathlib import Path
 from release_check import ROOT, source_files, check_release
@@ -43,4 +44,7 @@ def main(argv=None):
     p=argparse.ArgumentParser(description='构建中华民族祝福票发布包');p.add_argument('--out-dir',type=Path);a=p.parse_args(argv)
     try:print(json.dumps(build(a.out_dir),ensure_ascii=False,indent=2));return 0
     except (ValueError,OSError) as e:print('未完成构建：'+str(e));return 1
-if __name__=='__main__':raise SystemExit(main())
+if __name__=='__main__':
+    # 管道输出统一为UTF-8，避免Windows默认编码无法表示中文。
+    for stream in (sys.stdout,sys.stderr):stream.reconfigure(encoding='utf-8')
+    raise SystemExit(main())

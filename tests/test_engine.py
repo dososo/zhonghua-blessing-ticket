@@ -2,6 +2,7 @@
 from __future__ import annotations
 import importlib.util
 import json
+import os
 import struct
 import subprocess
 import sys
@@ -171,7 +172,7 @@ class HistoryTests(unittest.TestCase):
             p=e.compile_single('苗族','大吉大利',history=e.history_entries(self.path))
             used.append(p['visual_fingerprint']);e.reserve_history(self.path,[p])
         self.assertEqual(len(set(used)),4)
-        self.assertNotIn('大吉大利',self.path.read_text())
+        self.assertNotIn('大吉大利',self.path.read_text(encoding='utf-8'))
     def test_conflicting_reservation_leaves_original(self):
         p=e.compile_single('苗族','大吉大利');e.reserve_history(self.path,[p]);original=self.path.read_bytes()
         with self.assertRaises(ValueError):e.reserve_history(self.path,[p])
@@ -238,5 +239,29 @@ class CliTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             p=Path(tmp)/'p.json';r=self.run_cli('canvas','--start','51','--out',p)
             self.assertEqual(r.returncode,0,r.stderr);self.assertEqual(e.read_json(p)['grid']['count'],5)
+    def test_chinese_output_survives_legacy_pipe_encoding(self):
+        env=dict(os.environ,PYTHONIOENCODING='cp1252')
+        with tempfile.TemporaryDirectory() as tmp:
+            p=Path(tmp)/'方案.json'
+            cases=[('scripts/zhbt.py',['single','--ethnic','苗族','--blessing','大吉大利','--out',str(p)],0,'已写入：'),
+                   ('skills/zhonghua-blessing-ticket/scripts/plan.py',['list'],0,'苗族'),
+                   ('scripts/install.py',['--scope','project','--project',tmp],0,'请在Codex新会话'),
+                   ('scripts/release_check.py',[],0,'离线发布检查'),
+                   ('scripts/build_release.py',['--out-dir',str(Path(tmp)/'dist')],0,'构建日期字段固定')]
+            for script,args,code,expected in cases:
+                with self.subTest(script=script):
+                    r=subprocess.run([sys.executable,str(ROOT/script),*args],cwd=ROOT,env=env,capture_output=True,encoding='utf-8')
+                    self.assertEqual(r.returncode,code,r.stderr);self.assertIn(expected,r.stdout)
+            self.assertEqual(e.read_json(p)['exact_text']['value'],'大吉大利')
+    def test_chinese_errors_survive_legacy_pipe_encoding(self):
+        env=dict(os.environ,PYTHONIOENCODING='cp1252')
+        with tempfile.TemporaryDirectory() as tmp:
+            cases=[('scripts/zhbt.py',['single','--ethnic','苗族','--blessing','2026','--out',str(Path(tmp)/'x.json')],'未完成：'),
+                   ('scripts/install.py',['--scope','project'],'未完成安装：'),
+                   ('skills/zhonghua-blessing-ticket/scripts/assemble.py',['缺失.png','--out',str(Path(tmp)/'x.png')],'未完成拼版：')]
+            for script,args,expected in cases:
+                with self.subTest(script=script):
+                    r=subprocess.run([sys.executable,str(ROOT/script),*args],cwd=ROOT,env=env,capture_output=True,encoding='utf-8')
+                    self.assertEqual(r.returncode,2);self.assertIn(expected,r.stderr);self.assertNotIn('Traceback',r.stderr)
 
 if __name__=='__main__':unittest.main()

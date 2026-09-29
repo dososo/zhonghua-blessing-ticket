@@ -74,4 +74,7 @@ def main(argv=None):
     except (ValueError,OSError,KeyError,TypeError) as exc:
         print('未完成：'+str(exc),file=sys.stderr);return 2
 
-if __name__=='__main__':raise SystemExit(main())
+if __name__=='__main__':
+    # 管道输出统一为UTF-8，避免Windows默认编码无法表示中文。
+    for stream in (sys.stdout,sys.stderr):stream.reconfigure(encoding='utf-8')
+    raise SystemExit(main())

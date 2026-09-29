@@ -53,4 +53,7 @@ def main(argv=None):
     a=p.parse_args(argv)
     try:print(json.dumps(assemble(a.images,a.out,a.columns,a.gap,a.margin),ensure_ascii=False,indent=2));return 0
     except (ValueError,OSError) as e:print('未完成拼版：'+str(e),file=sys.stderr);return 2
-if __name__=='__main__':raise SystemExit(main())
+if __name__=='__main__':
+    # 管道输出统一为UTF-8，避免Windows默认编码无法表示中文。
+    for stream in (sys.stdout,sys.stderr):stream.reconfigure(encoding='utf-8')
+    raise SystemExit(main())

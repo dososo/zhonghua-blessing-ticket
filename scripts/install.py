@@ -74,4 +74,7 @@ def main(argv=None):
         if not a.uninstall:print('请在Codex新会话中使用$zhonghua-blessing-ticket；未显示时重启应用。旧插件同名入口请自行停用，避免冲突。')
         return 0
     except (OSError,ValueError) as e:print('未完成安装：'+str(e),file=sys.stderr);return 2
-if __name__=='__main__':raise SystemExit(main())
+if __name__=='__main__':
+    # 管道输出统一为UTF-8，避免Windows默认编码无法表示中文。
+    for stream in (sys.stdout,sys.stderr):stream.reconfigure(encoding='utf-8')
+    raise SystemExit(main())
