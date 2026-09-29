@@ -214,6 +214,8 @@ docs/         使用、文化资料与验证边界
 
 ## 作者
 
-**爆裂队长 NEXT（BLCaptain）** · [GitHub：dososo](https://github.com/dososo)
+**爆裂队长 NEXT（BLCaptain）**
 
-介绍页的组织形式参考作者的[复古工作台历](https://github.com/dososo/retro-desk-calendar)：先看作品，再了解用途、安装与验证。本项目的素材、功能与许可独立说明。
+- GitHub：[dososo](https://github.com/dososo)
+- X：[@thinkszyg](https://x.com/thinkszyg)
+- 邮箱：[blteam2026@outlook.com](mailto:blteam2026@outlook.com)
